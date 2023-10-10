@@ -1,0 +1,812 @@
+[2022-07-29 00:00:06,977] {processor.py:153} INFO - Started process (PID=58791) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:00:06,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:00:06,982] {logging_mixin.py:115} INFO - [2022-07-29 00:00:06,981] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:00:07,013] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:00:07,065] {logging_mixin.py:115} INFO - [2022-07-29 00:00:07,064] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:00:07,101] {logging_mixin.py:115} INFO - [2022-07-29 00:00:07,101] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:00:07,113] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.142 seconds
+[2022-07-29 00:00:37,378] {processor.py:153} INFO - Started process (PID=58862) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:00:37,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:00:37,383] {logging_mixin.py:115} INFO - [2022-07-29 00:00:37,383] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:00:37,406] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:00:37,439] {logging_mixin.py:115} INFO - [2022-07-29 00:00:37,439] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:00:37,457] {logging_mixin.py:115} INFO - [2022-07-29 00:00:37,457] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:00:37,467] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.094 seconds
+[2022-07-29 00:01:08,279] {processor.py:153} INFO - Started process (PID=58931) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:01:08,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:01:08,284] {logging_mixin.py:115} INFO - [2022-07-29 00:01:08,283] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:01:08,312] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:01:08,349] {logging_mixin.py:115} INFO - [2022-07-29 00:01:08,349] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:01:08,374] {logging_mixin.py:115} INFO - [2022-07-29 00:01:08,374] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:01:08,387] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.121 seconds
+[2022-07-29 00:01:38,519] {processor.py:153} INFO - Started process (PID=59001) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:01:38,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:01:38,526] {logging_mixin.py:115} INFO - [2022-07-29 00:01:38,525] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:01:38,566] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:01:38,628] {logging_mixin.py:115} INFO - [2022-07-29 00:01:38,628] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:01:38,650] {logging_mixin.py:115} INFO - [2022-07-29 00:01:38,650] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:01:38,660] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.156 seconds
+[2022-07-29 00:02:08,920] {processor.py:153} INFO - Started process (PID=59059) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:02:08,922] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:02:08,925] {logging_mixin.py:115} INFO - [2022-07-29 00:02:08,925] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:02:08,965] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:02:09,004] {logging_mixin.py:115} INFO - [2022-07-29 00:02:09,004] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:02:09,031] {logging_mixin.py:115} INFO - [2022-07-29 00:02:09,031] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:02:09,044] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.131 seconds
+[2022-07-29 00:02:39,394] {processor.py:153} INFO - Started process (PID=59128) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:02:39,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:02:39,398] {logging_mixin.py:115} INFO - [2022-07-29 00:02:39,398] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:02:39,428] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:02:39,467] {logging_mixin.py:115} INFO - [2022-07-29 00:02:39,467] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:02:39,488] {logging_mixin.py:115} INFO - [2022-07-29 00:02:39,488] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:02:39,509] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.121 seconds
+[2022-07-29 00:03:09,615] {processor.py:153} INFO - Started process (PID=59198) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:03:09,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:03:09,620] {logging_mixin.py:115} INFO - [2022-07-29 00:03:09,620] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:03:09,655] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:03:09,698] {logging_mixin.py:115} INFO - [2022-07-29 00:03:09,698] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:03:09,721] {logging_mixin.py:115} INFO - [2022-07-29 00:03:09,721] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:03:09,733] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.123 seconds
+[2022-07-29 00:03:40,207] {processor.py:153} INFO - Started process (PID=59267) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:03:40,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:03:40,213] {logging_mixin.py:115} INFO - [2022-07-29 00:03:40,213] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:03:40,237] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:03:40,281] {logging_mixin.py:115} INFO - [2022-07-29 00:03:40,281] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:03:40,303] {logging_mixin.py:115} INFO - [2022-07-29 00:03:40,303] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:03:40,318] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.118 seconds
+[2022-07-29 00:04:10,594] {processor.py:153} INFO - Started process (PID=59326) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:04:10,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:04:10,599] {logging_mixin.py:115} INFO - [2022-07-29 00:04:10,598] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:04:10,626] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:04:10,662] {logging_mixin.py:115} INFO - [2022-07-29 00:04:10,662] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:04:10,689] {logging_mixin.py:115} INFO - [2022-07-29 00:04:10,689] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:04:10,701] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.118 seconds
+[2022-07-29 00:04:40,895] {processor.py:153} INFO - Started process (PID=59397) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:04:40,898] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:04:40,901] {logging_mixin.py:115} INFO - [2022-07-29 00:04:40,901] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:04:40,932] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:04:40,974] {logging_mixin.py:115} INFO - [2022-07-29 00:04:40,973] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:04:40,998] {logging_mixin.py:115} INFO - [2022-07-29 00:04:40,998] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:04:41,010] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.122 seconds
+[2022-07-29 00:05:11,405] {processor.py:153} INFO - Started process (PID=59467) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:05:11,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:05:11,411] {logging_mixin.py:115} INFO - [2022-07-29 00:05:11,411] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:05:11,440] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:05:11,472] {logging_mixin.py:115} INFO - [2022-07-29 00:05:11,472] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:05:11,493] {logging_mixin.py:115} INFO - [2022-07-29 00:05:11,493] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:05:11,504] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.104 seconds
+[2022-07-29 00:05:41,853] {processor.py:153} INFO - Started process (PID=59524) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:05:41,857] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:05:41,860] {logging_mixin.py:115} INFO - [2022-07-29 00:05:41,860] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:05:41,894] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:05:41,935] {logging_mixin.py:115} INFO - [2022-07-29 00:05:41,935] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:05:41,964] {logging_mixin.py:115} INFO - [2022-07-29 00:05:41,964] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:05:41,977] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.139 seconds
+[2022-07-29 00:06:12,362] {processor.py:153} INFO - Started process (PID=59597) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:06:12,366] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:06:12,369] {logging_mixin.py:115} INFO - [2022-07-29 00:06:12,368] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:06:12,386] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:06:12,407] {logging_mixin.py:115} INFO - [2022-07-29 00:06:12,407] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:06:12,421] {logging_mixin.py:115} INFO - [2022-07-29 00:06:12,421] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:06:12,430] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.074 seconds
+[2022-07-29 00:06:42,538] {processor.py:153} INFO - Started process (PID=59665) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:06:42,543] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:06:42,545] {logging_mixin.py:115} INFO - [2022-07-29 00:06:42,545] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:06:42,563] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:06:42,582] {logging_mixin.py:115} INFO - [2022-07-29 00:06:42,582] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:06:42,598] {logging_mixin.py:115} INFO - [2022-07-29 00:06:42,598] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:06:42,607] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.077 seconds
+[2022-07-29 00:07:12,819] {processor.py:153} INFO - Started process (PID=59734) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:07:12,822] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:07:12,824] {logging_mixin.py:115} INFO - [2022-07-29 00:07:12,824] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:07:12,841] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:07:12,861] {logging_mixin.py:115} INFO - [2022-07-29 00:07:12,861] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:07:12,876] {logging_mixin.py:115} INFO - [2022-07-29 00:07:12,876] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:07:12,885] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.071 seconds
+[2022-07-29 00:07:42,941] {processor.py:153} INFO - Started process (PID=59799) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:07:42,944] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:07:42,946] {logging_mixin.py:115} INFO - [2022-07-29 00:07:42,946] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:07:42,966] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:07:42,991] {logging_mixin.py:115} INFO - [2022-07-29 00:07:42,990] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:07:43,009] {logging_mixin.py:115} INFO - [2022-07-29 00:07:43,009] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:07:43,021] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.087 seconds
+[2022-07-29 00:08:13,181] {processor.py:153} INFO - Started process (PID=59860) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:08:13,184] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:08:13,186] {logging_mixin.py:115} INFO - [2022-07-29 00:08:13,186] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:08:13,200] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:08:13,220] {logging_mixin.py:115} INFO - [2022-07-29 00:08:13,220] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:08:13,233] {logging_mixin.py:115} INFO - [2022-07-29 00:08:13,233] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:08:13,240] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.063 seconds
+[2022-07-29 00:08:43,310] {processor.py:153} INFO - Started process (PID=59933) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:08:43,313] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:08:43,317] {logging_mixin.py:115} INFO - [2022-07-29 00:08:43,316] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:08:43,335] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:08:43,359] {logging_mixin.py:115} INFO - [2022-07-29 00:08:43,359] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:08:43,375] {logging_mixin.py:115} INFO - [2022-07-29 00:08:43,374] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:08:43,383] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.077 seconds
+[2022-07-29 00:09:13,591] {processor.py:153} INFO - Started process (PID=60004) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:09:13,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:09:13,596] {logging_mixin.py:115} INFO - [2022-07-29 00:09:13,596] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:09:13,616] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:09:13,691] {logging_mixin.py:115} INFO - [2022-07-29 00:09:13,691] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:09:13,712] {logging_mixin.py:115} INFO - [2022-07-29 00:09:13,712] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:09:13,723] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.136 seconds
+[2022-07-29 00:09:43,913] {processor.py:153} INFO - Started process (PID=60076) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:09:43,916] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:09:43,917] {logging_mixin.py:115} INFO - [2022-07-29 00:09:43,917] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:09:43,932] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:09:43,957] {logging_mixin.py:115} INFO - [2022-07-29 00:09:43,957] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:09:44,004] {logging_mixin.py:115} INFO - [2022-07-29 00:09:44,004] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:09:44,015] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.107 seconds
+[2022-07-29 00:10:14,197] {processor.py:153} INFO - Started process (PID=60133) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:10:14,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:10:14,202] {logging_mixin.py:115} INFO - [2022-07-29 00:10:14,201] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:10:14,219] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:10:14,239] {logging_mixin.py:115} INFO - [2022-07-29 00:10:14,239] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:10:14,253] {logging_mixin.py:115} INFO - [2022-07-29 00:10:14,253] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:10:14,262] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.072 seconds
+[2022-07-29 00:10:44,507] {processor.py:153} INFO - Started process (PID=60201) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:10:44,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:10:44,512] {logging_mixin.py:115} INFO - [2022-07-29 00:10:44,512] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:10:44,532] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:10:44,555] {logging_mixin.py:115} INFO - [2022-07-29 00:10:44,555] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:10:44,571] {logging_mixin.py:115} INFO - [2022-07-29 00:10:44,570] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:10:44,579] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.077 seconds
+[2022-07-29 00:11:14,634] {processor.py:153} INFO - Started process (PID=60269) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:11:14,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:11:14,638] {logging_mixin.py:115} INFO - [2022-07-29 00:11:14,638] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:11:14,655] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:11:14,685] {logging_mixin.py:115} INFO - [2022-07-29 00:11:14,685] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:11:14,703] {logging_mixin.py:115} INFO - [2022-07-29 00:11:14,703] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:11:14,714] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.082 seconds
+[2022-07-29 00:11:45,044] {processor.py:153} INFO - Started process (PID=60336) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:11:45,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:11:45,048] {logging_mixin.py:115} INFO - [2022-07-29 00:11:45,048] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:11:45,064] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:11:45,097] {logging_mixin.py:115} INFO - [2022-07-29 00:11:45,096] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:11:45,116] {logging_mixin.py:115} INFO - [2022-07-29 00:11:45,116] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:11:45,128] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.089 seconds
+[2022-07-29 00:12:15,371] {processor.py:153} INFO - Started process (PID=60399) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:12:15,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:12:15,391] {logging_mixin.py:115} INFO - [2022-07-29 00:12:15,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:12:15,424] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:12:15,465] {logging_mixin.py:115} INFO - [2022-07-29 00:12:15,465] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:12:15,491] {logging_mixin.py:115} INFO - [2022-07-29 00:12:15,491] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:12:15,507] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.142 seconds
+[2022-07-29 00:12:45,671] {processor.py:153} INFO - Started process (PID=60470) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:12:45,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:12:45,676] {logging_mixin.py:115} INFO - [2022-07-29 00:12:45,676] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:12:45,690] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:12:45,719] {logging_mixin.py:115} INFO - [2022-07-29 00:12:45,719] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:12:45,734] {logging_mixin.py:115} INFO - [2022-07-29 00:12:45,734] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:12:45,745] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.080 seconds
+[2022-07-29 00:13:15,927] {processor.py:153} INFO - Started process (PID=60539) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:13:15,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:13:15,934] {logging_mixin.py:115} INFO - [2022-07-29 00:13:15,933] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:13:15,969] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:13:16,020] {logging_mixin.py:115} INFO - [2022-07-29 00:13:16,019] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:13:16,040] {logging_mixin.py:115} INFO - [2022-07-29 00:13:16,040] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:13:16,061] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.140 seconds
+[2022-07-29 00:13:46,229] {processor.py:153} INFO - Started process (PID=60607) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:13:46,231] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:13:46,233] {logging_mixin.py:115} INFO - [2022-07-29 00:13:46,233] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:13:46,253] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:13:46,294] {logging_mixin.py:115} INFO - [2022-07-29 00:13:46,294] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:13:46,324] {logging_mixin.py:115} INFO - [2022-07-29 00:13:46,324] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:13:46,344] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.119 seconds
+[2022-07-29 00:14:16,507] {processor.py:153} INFO - Started process (PID=60665) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:14:16,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:14:16,512] {logging_mixin.py:115} INFO - [2022-07-29 00:14:16,512] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:14:16,541] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:14:16,588] {logging_mixin.py:115} INFO - [2022-07-29 00:14:16,588] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:14:16,641] {logging_mixin.py:115} INFO - [2022-07-29 00:14:16,640] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:14:16,664] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.165 seconds
+[2022-07-29 00:14:47,034] {processor.py:153} INFO - Started process (PID=60731) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:14:47,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:14:47,039] {logging_mixin.py:115} INFO - [2022-07-29 00:14:47,039] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:14:47,055] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:14:47,075] {logging_mixin.py:115} INFO - [2022-07-29 00:14:47,075] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:14:47,094] {logging_mixin.py:115} INFO - [2022-07-29 00:14:47,094] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:14:47,103] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.075 seconds
+[2022-07-29 00:15:17,453] {processor.py:153} INFO - Started process (PID=60806) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:15:17,456] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:15:17,459] {logging_mixin.py:115} INFO - [2022-07-29 00:15:17,458] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:15:17,476] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:15:17,502] {logging_mixin.py:115} INFO - [2022-07-29 00:15:17,502] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:15:17,518] {logging_mixin.py:115} INFO - [2022-07-29 00:15:17,517] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:15:17,527] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.079 seconds
+[2022-07-29 00:15:47,817] {processor.py:153} INFO - Started process (PID=60878) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:15:47,820] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:15:47,822] {logging_mixin.py:115} INFO - [2022-07-29 00:15:47,822] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:15:47,836] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:15:47,859] {logging_mixin.py:115} INFO - [2022-07-29 00:15:47,859] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:15:47,875] {logging_mixin.py:115} INFO - [2022-07-29 00:15:47,875] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:15:47,885] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.074 seconds
+[2022-07-29 00:16:18,016] {processor.py:153} INFO - Started process (PID=60936) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:16:18,019] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:16:18,020] {logging_mixin.py:115} INFO - [2022-07-29 00:16:18,020] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:16:18,055] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:16:18,085] {logging_mixin.py:115} INFO - [2022-07-29 00:16:18,085] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:16:18,102] {logging_mixin.py:115} INFO - [2022-07-29 00:16:18,102] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:16:18,112] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.101 seconds
+[2022-07-29 00:16:48,229] {processor.py:153} INFO - Started process (PID=61005) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:16:48,232] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:16:48,235] {logging_mixin.py:115} INFO - [2022-07-29 00:16:48,234] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:16:48,250] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:16:48,276] {logging_mixin.py:115} INFO - [2022-07-29 00:16:48,275] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:16:48,301] {logging_mixin.py:115} INFO - [2022-07-29 00:16:48,301] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:16:48,314] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.088 seconds
+[2022-07-29 00:17:18,545] {processor.py:153} INFO - Started process (PID=61074) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:17:18,547] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:17:18,549] {logging_mixin.py:115} INFO - [2022-07-29 00:17:18,549] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:17:18,566] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:17:18,602] {logging_mixin.py:115} INFO - [2022-07-29 00:17:18,601] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:17:18,628] {logging_mixin.py:115} INFO - [2022-07-29 00:17:18,628] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:17:18,641] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.100 seconds
+[2022-07-29 00:17:48,877] {processor.py:153} INFO - Started process (PID=61141) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:17:48,878] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:17:48,879] {logging_mixin.py:115} INFO - [2022-07-29 00:17:48,879] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:17:48,893] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:17:48,916] {logging_mixin.py:115} INFO - [2022-07-29 00:17:48,916] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:17:48,934] {logging_mixin.py:115} INFO - [2022-07-29 00:17:48,933] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:17:48,944] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.070 seconds
+[2022-07-29 00:18:19,145] {processor.py:153} INFO - Started process (PID=61199) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:18:19,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:18:19,150] {logging_mixin.py:115} INFO - [2022-07-29 00:18:19,150] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:18:19,165] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:18:19,184] {logging_mixin.py:115} INFO - [2022-07-29 00:18:19,184] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:18:19,205] {logging_mixin.py:115} INFO - [2022-07-29 00:18:19,205] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:18:19,216] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.076 seconds
+[2022-07-29 00:18:49,384] {processor.py:153} INFO - Started process (PID=61268) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:18:49,388] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:18:49,391] {logging_mixin.py:115} INFO - [2022-07-29 00:18:49,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:18:49,409] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:18:49,429] {logging_mixin.py:115} INFO - [2022-07-29 00:18:49,429] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:18:49,445] {logging_mixin.py:115} INFO - [2022-07-29 00:18:49,445] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:18:49,456] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.078 seconds
+[2022-07-29 00:19:19,754] {processor.py:153} INFO - Started process (PID=61339) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:19:19,757] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:19:19,758] {logging_mixin.py:115} INFO - [2022-07-29 00:19:19,758] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:19:19,773] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:19:19,794] {logging_mixin.py:115} INFO - [2022-07-29 00:19:19,794] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:19:19,809] {logging_mixin.py:115} INFO - [2022-07-29 00:19:19,808] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:19:19,819] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.070 seconds
+[2022-07-29 00:19:50,009] {processor.py:153} INFO - Started process (PID=61409) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:19:50,012] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:19:50,013] {logging_mixin.py:115} INFO - [2022-07-29 00:19:50,013] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:19:50,027] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:19:50,049] {logging_mixin.py:115} INFO - [2022-07-29 00:19:50,049] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:19:50,066] {logging_mixin.py:115} INFO - [2022-07-29 00:19:50,066] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:19:50,075] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.069 seconds
+[2022-07-29 00:20:21,012] {processor.py:153} INFO - Started process (PID=61468) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:20:21,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:20:21,018] {logging_mixin.py:115} INFO - [2022-07-29 00:20:21,018] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:20:21,068] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:20:21,121] {logging_mixin.py:115} INFO - [2022-07-29 00:20:21,121] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:20:21,147] {logging_mixin.py:115} INFO - [2022-07-29 00:20:21,146] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:20:21,167] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.165 seconds
+[2022-07-29 00:20:51,390] {processor.py:153} INFO - Started process (PID=61535) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:20:51,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:20:51,398] {logging_mixin.py:115} INFO - [2022-07-29 00:20:51,398] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:20:51,434] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:20:51,467] {logging_mixin.py:115} INFO - [2022-07-29 00:20:51,467] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:20:51,495] {logging_mixin.py:115} INFO - [2022-07-29 00:20:51,494] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:20:51,506] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.126 seconds
+[2022-07-29 00:21:21,656] {processor.py:153} INFO - Started process (PID=61602) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:21:21,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:21:21,662] {logging_mixin.py:115} INFO - [2022-07-29 00:21:21,661] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:21:21,691] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:21:21,734] {logging_mixin.py:115} INFO - [2022-07-29 00:21:21,734] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:21:21,760] {logging_mixin.py:115} INFO - [2022-07-29 00:21:21,760] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:21:21,778] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.127 seconds
+[2022-07-29 00:21:51,936] {processor.py:153} INFO - Started process (PID=61673) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:21:51,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:21:51,942] {logging_mixin.py:115} INFO - [2022-07-29 00:21:51,942] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:21:51,961] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:21:51,997] {logging_mixin.py:115} INFO - [2022-07-29 00:21:51,997] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:21:52,022] {logging_mixin.py:115} INFO - [2022-07-29 00:21:52,022] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:21:52,034] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.103 seconds
+[2022-07-29 00:22:22,206] {processor.py:153} INFO - Started process (PID=61731) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:22:22,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:22:22,211] {logging_mixin.py:115} INFO - [2022-07-29 00:22:22,211] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:22:22,239] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:22:22,276] {logging_mixin.py:115} INFO - [2022-07-29 00:22:22,276] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:22:22,297] {logging_mixin.py:115} INFO - [2022-07-29 00:22:22,297] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:22:22,308] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.106 seconds
+[2022-07-29 00:22:52,680] {processor.py:153} INFO - Started process (PID=61799) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:22:52,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:22:52,686] {logging_mixin.py:115} INFO - [2022-07-29 00:22:52,686] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:22:52,712] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:22:52,747] {logging_mixin.py:115} INFO - [2022-07-29 00:22:52,747] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:22:52,772] {logging_mixin.py:115} INFO - [2022-07-29 00:22:52,772] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:22:52,785] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.115 seconds
+[2022-07-29 00:23:23,019] {processor.py:153} INFO - Started process (PID=61870) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:23:23,021] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:23:23,023] {logging_mixin.py:115} INFO - [2022-07-29 00:23:23,023] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:23:23,054] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:23:23,093] {logging_mixin.py:115} INFO - [2022-07-29 00:23:23,093] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:23:23,122] {logging_mixin.py:115} INFO - [2022-07-29 00:23:23,122] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:23:23,133] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.118 seconds
+[2022-07-29 00:23:53,184] {processor.py:153} INFO - Started process (PID=61940) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:23:53,186] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:23:53,187] {logging_mixin.py:115} INFO - [2022-07-29 00:23:53,187] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:23:53,221] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:23:53,266] {logging_mixin.py:115} INFO - [2022-07-29 00:23:53,266] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:23:53,301] {logging_mixin.py:115} INFO - [2022-07-29 00:23:53,300] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:23:53,316] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.137 seconds
+[2022-07-29 00:24:23,563] {processor.py:153} INFO - Started process (PID=61998) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:24:23,565] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:24:23,569] {logging_mixin.py:115} INFO - [2022-07-29 00:24:23,568] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:24:23,595] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:24:23,628] {logging_mixin.py:115} INFO - [2022-07-29 00:24:23,628] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:24:23,653] {logging_mixin.py:115} INFO - [2022-07-29 00:24:23,653] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:24:23,665] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.108 seconds
+[2022-07-29 00:24:54,197] {processor.py:153} INFO - Started process (PID=62066) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:24:54,199] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:24:54,201] {logging_mixin.py:115} INFO - [2022-07-29 00:24:54,201] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:24:54,225] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:24:54,270] {logging_mixin.py:115} INFO - [2022-07-29 00:24:54,270] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:24:54,291] {logging_mixin.py:115} INFO - [2022-07-29 00:24:54,291] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:24:54,303] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.124 seconds
+[2022-07-29 00:25:24,474] {processor.py:153} INFO - Started process (PID=62136) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:25:24,478] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:25:24,480] {logging_mixin.py:115} INFO - [2022-07-29 00:25:24,480] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:25:24,520] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:25:24,563] {logging_mixin.py:115} INFO - [2022-07-29 00:25:24,563] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:25:24,589] {logging_mixin.py:115} INFO - [2022-07-29 00:25:24,589] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:25:24,601] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.139 seconds
+[2022-07-29 00:25:54,893] {processor.py:153} INFO - Started process (PID=62203) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:25:54,896] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:25:54,898] {logging_mixin.py:115} INFO - [2022-07-29 00:25:54,898] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:25:54,928] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:25:54,972] {logging_mixin.py:115} INFO - [2022-07-29 00:25:54,972] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:25:55,000] {logging_mixin.py:115} INFO - [2022-07-29 00:25:55,000] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:25:55,014] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.127 seconds
+[2022-07-29 00:26:25,154] {processor.py:153} INFO - Started process (PID=62263) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:26:25,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:26:25,158] {logging_mixin.py:115} INFO - [2022-07-29 00:26:25,158] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:26:25,188] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:26:25,231] {logging_mixin.py:115} INFO - [2022-07-29 00:26:25,230] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:26:25,250] {logging_mixin.py:115} INFO - [2022-07-29 00:26:25,250] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:26:25,262] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.113 seconds
+[2022-07-29 00:26:55,346] {processor.py:153} INFO - Started process (PID=62330) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:26:55,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:26:55,350] {logging_mixin.py:115} INFO - [2022-07-29 00:26:55,350] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:26:55,378] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:26:55,422] {logging_mixin.py:115} INFO - [2022-07-29 00:26:55,421] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:26:55,446] {logging_mixin.py:115} INFO - [2022-07-29 00:26:55,446] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:26:55,466] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.125 seconds
+[2022-07-29 00:27:25,693] {processor.py:153} INFO - Started process (PID=62399) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:27:25,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:27:25,697] {logging_mixin.py:115} INFO - [2022-07-29 00:27:25,697] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:27:25,730] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:27:25,769] {logging_mixin.py:115} INFO - [2022-07-29 00:27:25,769] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:27:25,793] {logging_mixin.py:115} INFO - [2022-07-29 00:27:25,793] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:27:25,805] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.118 seconds
+[2022-07-29 00:27:56,071] {processor.py:153} INFO - Started process (PID=62459) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:27:56,074] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:27:56,076] {logging_mixin.py:115} INFO - [2022-07-29 00:27:56,076] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:27:56,103] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:27:56,149] {logging_mixin.py:115} INFO - [2022-07-29 00:27:56,149] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:27:56,173] {logging_mixin.py:115} INFO - [2022-07-29 00:27:56,173] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:27:56,186] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.139 seconds
+[2022-07-29 00:28:26,273] {processor.py:153} INFO - Started process (PID=62533) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:28:26,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:28:26,276] {logging_mixin.py:115} INFO - [2022-07-29 00:28:26,276] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:28:26,305] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:28:26,340] {logging_mixin.py:115} INFO - [2022-07-29 00:28:26,340] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:28:26,364] {logging_mixin.py:115} INFO - [2022-07-29 00:28:26,364] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:28:26,378] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.111 seconds
+[2022-07-29 00:28:56,920] {processor.py:153} INFO - Started process (PID=62600) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:28:56,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:28:56,924] {logging_mixin.py:115} INFO - [2022-07-29 00:28:56,924] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:28:56,940] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:28:56,972] {logging_mixin.py:115} INFO - [2022-07-29 00:28:56,972] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:28:56,990] {logging_mixin.py:115} INFO - [2022-07-29 00:28:56,990] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:28:57,001] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.086 seconds
+[2022-07-29 00:29:27,541] {processor.py:153} INFO - Started process (PID=62667) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:29:27,543] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:29:27,545] {logging_mixin.py:115} INFO - [2022-07-29 00:29:27,545] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:29:27,574] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:29:27,616] {logging_mixin.py:115} INFO - [2022-07-29 00:29:27,616] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:29:27,639] {logging_mixin.py:115} INFO - [2022-07-29 00:29:27,639] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:29:27,654] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.119 seconds
+[2022-07-29 00:29:57,885] {processor.py:153} INFO - Started process (PID=62725) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:29:57,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:29:57,902] {logging_mixin.py:115} INFO - [2022-07-29 00:29:57,902] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:29:57,930] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:29:57,971] {logging_mixin.py:115} INFO - [2022-07-29 00:29:57,971] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:29:57,989] {logging_mixin.py:115} INFO - [2022-07-29 00:29:57,989] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:29:58,000] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.120 seconds
+[2022-07-29 00:30:28,335] {processor.py:153} INFO - Started process (PID=62796) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:30:28,338] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:30:28,340] {logging_mixin.py:115} INFO - [2022-07-29 00:30:28,340] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:30:28,366] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:30:28,411] {logging_mixin.py:115} INFO - [2022-07-29 00:30:28,411] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:30:28,434] {logging_mixin.py:115} INFO - [2022-07-29 00:30:28,434] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:30:28,451] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.121 seconds
+[2022-07-29 00:30:59,487] {processor.py:153} INFO - Started process (PID=62866) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:30:59,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:30:59,492] {logging_mixin.py:115} INFO - [2022-07-29 00:30:59,491] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:30:59,520] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:30:59,561] {logging_mixin.py:115} INFO - [2022-07-29 00:30:59,561] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:30:59,585] {logging_mixin.py:115} INFO - [2022-07-29 00:30:59,585] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:30:59,597] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.116 seconds
+[2022-07-29 00:31:29,817] {processor.py:153} INFO - Started process (PID=62933) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:31:29,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:31:29,821] {logging_mixin.py:115} INFO - [2022-07-29 00:31:29,821] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:31:29,851] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:31:29,890] {logging_mixin.py:115} INFO - [2022-07-29 00:31:29,890] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:31:29,913] {logging_mixin.py:115} INFO - [2022-07-29 00:31:29,912] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:31:29,926] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.117 seconds
+[2022-07-29 00:32:00,123] {processor.py:153} INFO - Started process (PID=62991) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:32:00,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:32:00,130] {logging_mixin.py:115} INFO - [2022-07-29 00:32:00,129] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:32:00,157] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:32:00,209] {logging_mixin.py:115} INFO - [2022-07-29 00:32:00,208] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:32:00,237] {logging_mixin.py:115} INFO - [2022-07-29 00:32:00,237] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:32:00,252] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.134 seconds
+[2022-07-29 00:32:30,669] {processor.py:153} INFO - Started process (PID=63066) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:32:30,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:32:30,677] {logging_mixin.py:115} INFO - [2022-07-29 00:32:30,677] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:32:30,707] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:32:30,759] {logging_mixin.py:115} INFO - [2022-07-29 00:32:30,758] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:32:30,783] {logging_mixin.py:115} INFO - [2022-07-29 00:32:30,783] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:32:30,795] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.132 seconds
+[2022-07-29 00:33:01,188] {processor.py:153} INFO - Started process (PID=63137) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:33:01,192] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:33:01,194] {logging_mixin.py:115} INFO - [2022-07-29 00:33:01,194] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:33:01,227] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:33:01,275] {logging_mixin.py:115} INFO - [2022-07-29 00:33:01,275] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:33:01,303] {logging_mixin.py:115} INFO - [2022-07-29 00:33:01,303] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:33:01,315] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.132 seconds
+[2022-07-29 00:33:31,675] {processor.py:153} INFO - Started process (PID=63205) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:33:31,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:33:31,681] {logging_mixin.py:115} INFO - [2022-07-29 00:33:31,680] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:33:31,710] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:33:31,751] {logging_mixin.py:115} INFO - [2022-07-29 00:33:31,751] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:33:31,773] {logging_mixin.py:115} INFO - [2022-07-29 00:33:31,773] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:33:31,785] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.124 seconds
+[2022-07-29 00:34:01,932] {processor.py:153} INFO - Started process (PID=63267) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:34:01,935] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:34:01,937] {logging_mixin.py:115} INFO - [2022-07-29 00:34:01,937] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:34:01,973] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:34:02,020] {logging_mixin.py:115} INFO - [2022-07-29 00:34:02,020] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:34:02,039] {logging_mixin.py:115} INFO - [2022-07-29 00:34:02,039] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:34:02,049] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.122 seconds
+[2022-07-29 00:34:32,505] {processor.py:153} INFO - Started process (PID=63335) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:34:32,507] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:34:32,510] {logging_mixin.py:115} INFO - [2022-07-29 00:34:32,510] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:34:32,537] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:34:32,570] {logging_mixin.py:115} INFO - [2022-07-29 00:34:32,570] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:34:32,595] {logging_mixin.py:115} INFO - [2022-07-29 00:34:32,595] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:34:32,608] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.108 seconds
+[2022-07-29 00:35:02,944] {processor.py:153} INFO - Started process (PID=63402) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:35:02,947] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:35:02,949] {logging_mixin.py:115} INFO - [2022-07-29 00:35:02,949] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:35:02,968] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:35:03,016] {logging_mixin.py:115} INFO - [2022-07-29 00:35:03,016] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:35:03,034] {logging_mixin.py:115} INFO - [2022-07-29 00:35:03,034] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:35:03,044] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.105 seconds
+[2022-07-29 00:35:33,177] {processor.py:153} INFO - Started process (PID=63475) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:35:33,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:35:33,181] {logging_mixin.py:115} INFO - [2022-07-29 00:35:33,181] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:35:33,205] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:35:33,236] {logging_mixin.py:115} INFO - [2022-07-29 00:35:33,236] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:35:33,259] {logging_mixin.py:115} INFO - [2022-07-29 00:35:33,259] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:35:33,271] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.098 seconds
+[2022-07-29 00:36:03,538] {processor.py:153} INFO - Started process (PID=63535) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:36:03,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:36:03,545] {logging_mixin.py:115} INFO - [2022-07-29 00:36:03,544] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:36:03,586] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:36:03,632] {logging_mixin.py:115} INFO - [2022-07-29 00:36:03,632] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:36:03,656] {logging_mixin.py:115} INFO - [2022-07-29 00:36:03,656] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:36:03,678] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.146 seconds
+[2022-07-29 00:36:34,010] {processor.py:153} INFO - Started process (PID=63607) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:36:34,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:36:34,015] {logging_mixin.py:115} INFO - [2022-07-29 00:36:34,015] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:36:34,041] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:36:34,084] {logging_mixin.py:115} INFO - [2022-07-29 00:36:34,084] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:36:34,105] {logging_mixin.py:115} INFO - [2022-07-29 00:36:34,104] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:36:34,115] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.111 seconds
+[2022-07-29 00:37:04,464] {processor.py:153} INFO - Started process (PID=63677) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:37:04,467] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:37:04,470] {logging_mixin.py:115} INFO - [2022-07-29 00:37:04,470] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:37:04,499] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:37:04,533] {logging_mixin.py:115} INFO - [2022-07-29 00:37:04,532] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:37:04,557] {logging_mixin.py:115} INFO - [2022-07-29 00:37:04,557] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:37:04,567] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.107 seconds
+[2022-07-29 00:37:34,721] {processor.py:153} INFO - Started process (PID=63736) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:37:34,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:37:34,726] {logging_mixin.py:115} INFO - [2022-07-29 00:37:34,726] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:37:34,764] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:37:34,822] {logging_mixin.py:115} INFO - [2022-07-29 00:37:34,821] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:37:34,852] {logging_mixin.py:115} INFO - [2022-07-29 00:37:34,852] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:37:34,868] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.156 seconds
+[2022-07-29 00:38:05,138] {processor.py:153} INFO - Started process (PID=63809) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:38:05,141] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:38:05,144] {logging_mixin.py:115} INFO - [2022-07-29 00:38:05,144] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:38:05,173] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:38:05,204] {logging_mixin.py:115} INFO - [2022-07-29 00:38:05,204] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:38:05,222] {logging_mixin.py:115} INFO - [2022-07-29 00:38:05,222] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:38:05,240] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.109 seconds
+[2022-07-29 00:38:35,492] {processor.py:153} INFO - Started process (PID=63880) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:38:35,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:38:35,498] {logging_mixin.py:115} INFO - [2022-07-29 00:38:35,498] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:38:35,527] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:38:35,583] {logging_mixin.py:115} INFO - [2022-07-29 00:38:35,583] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:38:35,612] {logging_mixin.py:115} INFO - [2022-07-29 00:38:35,612] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:38:35,632] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.147 seconds
+[2022-07-29 00:39:06,086] {processor.py:153} INFO - Started process (PID=63948) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:39:06,089] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:39:06,091] {logging_mixin.py:115} INFO - [2022-07-29 00:39:06,091] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:39:06,121] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:39:06,173] {logging_mixin.py:115} INFO - [2022-07-29 00:39:06,173] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:39:06,197] {logging_mixin.py:115} INFO - [2022-07-29 00:39:06,197] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:39:06,213] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.143 seconds
+[2022-07-29 00:39:36,350] {processor.py:153} INFO - Started process (PID=64008) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:39:36,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:39:36,356] {logging_mixin.py:115} INFO - [2022-07-29 00:39:36,356] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:39:36,398] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:39:36,443] {logging_mixin.py:115} INFO - [2022-07-29 00:39:36,443] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:39:36,469] {logging_mixin.py:115} INFO - [2022-07-29 00:39:36,469] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:39:36,481] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.136 seconds
+[2022-07-29 00:40:06,797] {processor.py:153} INFO - Started process (PID=64080) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:40:06,801] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:40:06,804] {logging_mixin.py:115} INFO - [2022-07-29 00:40:06,804] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:40:06,847] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:40:06,912] {logging_mixin.py:115} INFO - [2022-07-29 00:40:06,912] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:40:06,963] {logging_mixin.py:115} INFO - [2022-07-29 00:40:06,963] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:40:06,983] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.200 seconds
+[2022-07-29 00:40:37,029] {processor.py:153} INFO - Started process (PID=64149) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:40:37,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:40:37,032] {logging_mixin.py:115} INFO - [2022-07-29 00:40:37,032] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:40:37,059] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:40:37,091] {logging_mixin.py:115} INFO - [2022-07-29 00:40:37,091] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:40:37,114] {logging_mixin.py:115} INFO - [2022-07-29 00:40:37,114] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:40:37,124] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.100 seconds
+[2022-07-29 00:41:07,665] {processor.py:153} INFO - Started process (PID=64209) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:41:07,668] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:41:07,670] {logging_mixin.py:115} INFO - [2022-07-29 00:41:07,670] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:41:07,699] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:41:07,749] {logging_mixin.py:115} INFO - [2022-07-29 00:41:07,749] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:41:07,783] {logging_mixin.py:115} INFO - [2022-07-29 00:41:07,783] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:41:07,799] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.141 seconds
+[2022-07-29 00:41:38,051] {processor.py:153} INFO - Started process (PID=64275) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:41:38,053] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:41:38,054] {logging_mixin.py:115} INFO - [2022-07-29 00:41:38,054] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:41:38,086] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:41:38,122] {logging_mixin.py:115} INFO - [2022-07-29 00:41:38,122] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:41:38,141] {logging_mixin.py:115} INFO - [2022-07-29 00:41:38,141] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:41:38,163] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.118 seconds
+[2022-07-29 00:42:08,371] {processor.py:153} INFO - Started process (PID=64346) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:42:08,374] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:42:08,376] {logging_mixin.py:115} INFO - [2022-07-29 00:42:08,376] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:42:08,407] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:42:08,454] {logging_mixin.py:115} INFO - [2022-07-29 00:42:08,454] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:42:08,477] {logging_mixin.py:115} INFO - [2022-07-29 00:42:08,477] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:42:08,496] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.131 seconds
+[2022-07-29 00:42:39,065] {processor.py:153} INFO - Started process (PID=64416) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:42:39,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:42:39,070] {logging_mixin.py:115} INFO - [2022-07-29 00:42:39,070] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:42:39,099] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:42:39,142] {logging_mixin.py:115} INFO - [2022-07-29 00:42:39,142] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:42:39,162] {logging_mixin.py:115} INFO - [2022-07-29 00:42:39,162] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:42:39,176] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.116 seconds
+[2022-07-29 00:43:09,283] {processor.py:153} INFO - Started process (PID=64473) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:43:09,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:43:09,287] {logging_mixin.py:115} INFO - [2022-07-29 00:43:09,287] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:43:09,315] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:43:09,340] {logging_mixin.py:115} INFO - [2022-07-29 00:43:09,340] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:43:09,358] {logging_mixin.py:115} INFO - [2022-07-29 00:43:09,358] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:43:09,367] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.087 seconds
+[2022-07-29 00:43:39,725] {processor.py:153} INFO - Started process (PID=64539) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:43:39,728] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:43:39,731] {logging_mixin.py:115} INFO - [2022-07-29 00:43:39,731] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:43:39,762] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:43:39,795] {logging_mixin.py:115} INFO - [2022-07-29 00:43:39,795] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:43:39,815] {logging_mixin.py:115} INFO - [2022-07-29 00:43:39,815] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:43:39,827] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.108 seconds
+[2022-07-29 00:44:10,116] {processor.py:153} INFO - Started process (PID=64606) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:44:10,119] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:44:10,121] {logging_mixin.py:115} INFO - [2022-07-29 00:44:10,121] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:44:10,144] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:44:10,186] {logging_mixin.py:115} INFO - [2022-07-29 00:44:10,186] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:44:10,218] {logging_mixin.py:115} INFO - [2022-07-29 00:44:10,218] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:44:10,228] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.117 seconds
+[2022-07-29 00:44:40,372] {processor.py:153} INFO - Started process (PID=64674) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:44:40,376] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:44:40,378] {logging_mixin.py:115} INFO - [2022-07-29 00:44:40,378] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:44:40,418] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:44:40,474] {logging_mixin.py:115} INFO - [2022-07-29 00:44:40,474] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:44:40,568] {logging_mixin.py:115} INFO - [2022-07-29 00:44:40,567] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:44:40,592] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.236 seconds
+[2022-07-29 00:45:10,752] {processor.py:153} INFO - Started process (PID=64731) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:45:10,755] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:45:10,758] {logging_mixin.py:115} INFO - [2022-07-29 00:45:10,758] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:45:10,784] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:45:10,818] {logging_mixin.py:115} INFO - [2022-07-29 00:45:10,818] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:45:10,843] {logging_mixin.py:115} INFO - [2022-07-29 00:45:10,843] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:45:10,854] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.113 seconds
+[2022-07-29 00:45:41,212] {processor.py:153} INFO - Started process (PID=64801) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:45:41,215] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:45:41,217] {logging_mixin.py:115} INFO - [2022-07-29 00:45:41,217] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:45:41,240] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:45:41,274] {logging_mixin.py:115} INFO - [2022-07-29 00:45:41,273] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:45:41,294] {logging_mixin.py:115} INFO - [2022-07-29 00:45:41,294] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:45:41,305] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.099 seconds
+[2022-07-29 00:46:11,583] {processor.py:153} INFO - Started process (PID=64870) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:46:11,585] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:46:11,587] {logging_mixin.py:115} INFO - [2022-07-29 00:46:11,587] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:46:11,604] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:46:11,630] {logging_mixin.py:115} INFO - [2022-07-29 00:46:11,629] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:46:11,651] {logging_mixin.py:115} INFO - [2022-07-29 00:46:11,651] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:46:11,662] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.085 seconds
+[2022-07-29 00:46:42,116] {processor.py:153} INFO - Started process (PID=64927) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:46:42,119] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:46:42,121] {logging_mixin.py:115} INFO - [2022-07-29 00:46:42,121] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:46:42,150] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:46:42,190] {logging_mixin.py:115} INFO - [2022-07-29 00:46:42,189] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:46:42,213] {logging_mixin.py:115} INFO - [2022-07-29 00:46:42,213] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:46:42,224] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.111 seconds
+[2022-07-29 00:47:12,516] {processor.py:153} INFO - Started process (PID=64996) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:47:12,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:47:12,520] {logging_mixin.py:115} INFO - [2022-07-29 00:47:12,520] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:47:12,552] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:47:12,581] {logging_mixin.py:115} INFO - [2022-07-29 00:47:12,581] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:47:12,602] {logging_mixin.py:115} INFO - [2022-07-29 00:47:12,602] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:47:12,614] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.105 seconds
+[2022-07-29 00:47:42,836] {processor.py:153} INFO - Started process (PID=65066) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:47:42,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:47:42,841] {logging_mixin.py:115} INFO - [2022-07-29 00:47:42,841] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:47:42,858] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:47:42,880] {logging_mixin.py:115} INFO - [2022-07-29 00:47:42,879] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:47:42,894] {logging_mixin.py:115} INFO - [2022-07-29 00:47:42,894] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:47:42,904] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.072 seconds
+[2022-07-29 00:48:12,971] {processor.py:153} INFO - Started process (PID=65137) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:48:12,975] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:48:12,978] {logging_mixin.py:115} INFO - [2022-07-29 00:48:12,977] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:48:12,999] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:48:13,022] {logging_mixin.py:115} INFO - [2022-07-29 00:48:13,022] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:48:13,041] {logging_mixin.py:115} INFO - [2022-07-29 00:48:13,041] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:48:13,053] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.089 seconds
+[2022-07-29 00:48:43,443] {processor.py:153} INFO - Started process (PID=65196) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:48:43,447] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:48:43,448] {logging_mixin.py:115} INFO - [2022-07-29 00:48:43,448] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:48:43,477] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:48:43,505] {logging_mixin.py:115} INFO - [2022-07-29 00:48:43,505] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:48:43,523] {logging_mixin.py:115} INFO - [2022-07-29 00:48:43,523] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:48:43,536] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.097 seconds
+[2022-07-29 00:49:14,320] {processor.py:153} INFO - Started process (PID=65264) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:49:14,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:49:14,324] {logging_mixin.py:115} INFO - [2022-07-29 00:49:14,324] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:49:14,339] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:49:14,358] {logging_mixin.py:115} INFO - [2022-07-29 00:49:14,358] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:49:14,373] {logging_mixin.py:115} INFO - [2022-07-29 00:49:14,373] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:49:14,382] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.065 seconds
+[2022-07-29 00:49:44,632] {processor.py:153} INFO - Started process (PID=65334) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:49:44,638] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:49:44,640] {logging_mixin.py:115} INFO - [2022-07-29 00:49:44,640] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:49:44,660] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:49:44,679] {logging_mixin.py:115} INFO - [2022-07-29 00:49:44,679] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:49:44,702] {logging_mixin.py:115} INFO - [2022-07-29 00:49:44,701] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:49:44,712] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.086 seconds
+[2022-07-29 00:50:14,805] {processor.py:153} INFO - Started process (PID=65405) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:50:14,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:50:14,809] {logging_mixin.py:115} INFO - [2022-07-29 00:50:14,809] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:50:14,824] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:50:14,847] {logging_mixin.py:115} INFO - [2022-07-29 00:50:14,847] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:50:14,865] {logging_mixin.py:115} INFO - [2022-07-29 00:50:14,864] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:50:14,876] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.075 seconds
+[2022-07-29 00:50:45,050] {processor.py:153} INFO - Started process (PID=65475) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:50:45,052] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:50:45,054] {logging_mixin.py:115} INFO - [2022-07-29 00:50:45,054] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:50:45,074] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:50:45,093] {logging_mixin.py:115} INFO - [2022-07-29 00:50:45,093] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:50:45,109] {logging_mixin.py:115} INFO - [2022-07-29 00:50:45,109] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:50:45,118] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.073 seconds
+[2022-07-29 00:51:15,218] {processor.py:153} INFO - Started process (PID=65534) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:51:15,221] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:51:15,223] {logging_mixin.py:115} INFO - [2022-07-29 00:51:15,223] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:51:15,240] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:51:15,259] {logging_mixin.py:115} INFO - [2022-07-29 00:51:15,259] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:51:15,273] {logging_mixin.py:115} INFO - [2022-07-29 00:51:15,273] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:51:15,281] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.066 seconds
+[2022-07-29 00:51:45,382] {processor.py:153} INFO - Started process (PID=65600) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:51:45,385] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:51:45,388] {logging_mixin.py:115} INFO - [2022-07-29 00:51:45,388] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:51:45,405] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:51:45,430] {logging_mixin.py:115} INFO - [2022-07-29 00:51:45,430] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:51:45,452] {logging_mixin.py:115} INFO - [2022-07-29 00:51:45,452] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:51:45,460] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.084 seconds
+[2022-07-29 00:52:16,248] {processor.py:153} INFO - Started process (PID=65668) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:52:16,250] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:52:16,251] {logging_mixin.py:115} INFO - [2022-07-29 00:52:16,251] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:52:16,270] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:52:16,295] {logging_mixin.py:115} INFO - [2022-07-29 00:52:16,295] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:52:16,311] {logging_mixin.py:115} INFO - [2022-07-29 00:52:16,311] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:52:16,320] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.077 seconds
+[2022-07-29 00:52:46,442] {processor.py:153} INFO - Started process (PID=65740) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:52:46,445] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:52:46,446] {logging_mixin.py:115} INFO - [2022-07-29 00:52:46,446] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:52:46,466] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:52:46,490] {logging_mixin.py:115} INFO - [2022-07-29 00:52:46,490] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:52:46,506] {logging_mixin.py:115} INFO - [2022-07-29 00:52:46,506] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:52:46,515] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.079 seconds
+[2022-07-29 00:53:16,675] {processor.py:153} INFO - Started process (PID=65811) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:53:16,677] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:53:16,679] {logging_mixin.py:115} INFO - [2022-07-29 00:53:16,679] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:53:16,695] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:53:16,724] {logging_mixin.py:115} INFO - [2022-07-29 00:53:16,724] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:53:16,742] {logging_mixin.py:115} INFO - [2022-07-29 00:53:16,742] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:53:16,753] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.083 seconds
+[2022-07-29 00:53:47,065] {processor.py:153} INFO - Started process (PID=65868) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:53:47,067] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:53:47,069] {logging_mixin.py:115} INFO - [2022-07-29 00:53:47,069] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:53:47,084] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:53:47,105] {logging_mixin.py:115} INFO - [2022-07-29 00:53:47,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:53:47,122] {logging_mixin.py:115} INFO - [2022-07-29 00:53:47,122] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:53:47,131] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.072 seconds
+[2022-07-29 00:54:17,915] {processor.py:153} INFO - Started process (PID=65938) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:54:17,917] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:54:17,919] {logging_mixin.py:115} INFO - [2022-07-29 00:54:17,919] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:54:17,934] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:54:17,957] {logging_mixin.py:115} INFO - [2022-07-29 00:54:17,956] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:54:17,974] {logging_mixin.py:115} INFO - [2022-07-29 00:54:17,973] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:54:17,983] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.072 seconds
+[2022-07-29 00:54:48,144] {processor.py:153} INFO - Started process (PID=66008) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:54:48,147] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:54:48,149] {logging_mixin.py:115} INFO - [2022-07-29 00:54:48,149] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:54:48,167] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:54:48,190] {logging_mixin.py:115} INFO - [2022-07-29 00:54:48,190] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:54:48,206] {logging_mixin.py:115} INFO - [2022-07-29 00:54:48,206] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:54:48,215] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.077 seconds
+[2022-07-29 00:55:18,773] {processor.py:153} INFO - Started process (PID=66078) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:55:18,776] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:55:18,778] {logging_mixin.py:115} INFO - [2022-07-29 00:55:18,777] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:55:18,800] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:55:18,833] {logging_mixin.py:115} INFO - [2022-07-29 00:55:18,833] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:55:18,856] {logging_mixin.py:115} INFO - [2022-07-29 00:55:18,856] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:55:18,866] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.098 seconds
+[2022-07-29 00:55:48,918] {processor.py:153} INFO - Started process (PID=66134) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:55:48,920] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:55:48,922] {logging_mixin.py:115} INFO - [2022-07-29 00:55:48,921] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:55:48,933] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:55:48,954] {logging_mixin.py:115} INFO - [2022-07-29 00:55:48,954] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:55:48,970] {logging_mixin.py:115} INFO - [2022-07-29 00:55:48,969] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:55:48,980] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.064 seconds
+[2022-07-29 00:56:19,076] {processor.py:153} INFO - Started process (PID=66202) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:56:19,078] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:56:19,080] {logging_mixin.py:115} INFO - [2022-07-29 00:56:19,080] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:56:19,094] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:56:19,117] {logging_mixin.py:115} INFO - [2022-07-29 00:56:19,117] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:56:19,134] {logging_mixin.py:115} INFO - [2022-07-29 00:56:19,133] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:56:19,159] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.086 seconds
+[2022-07-29 00:56:49,256] {processor.py:153} INFO - Started process (PID=66276) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:56:49,258] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:56:49,260] {logging_mixin.py:115} INFO - [2022-07-29 00:56:49,260] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:56:49,273] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:56:49,294] {logging_mixin.py:115} INFO - [2022-07-29 00:56:49,294] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:56:49,309] {logging_mixin.py:115} INFO - [2022-07-29 00:56:49,309] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:56:49,318] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.064 seconds
+[2022-07-29 00:57:19,521] {processor.py:153} INFO - Started process (PID=66341) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:57:19,525] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:57:19,527] {logging_mixin.py:115} INFO - [2022-07-29 00:57:19,527] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:57:19,567] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:57:19,620] {logging_mixin.py:115} INFO - [2022-07-29 00:57:19,620] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:57:19,652] {logging_mixin.py:115} INFO - [2022-07-29 00:57:19,652] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:57:19,669] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.152 seconds
+[2022-07-29 00:57:50,027] {processor.py:153} INFO - Started process (PID=66398) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:57:50,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:57:50,034] {logging_mixin.py:115} INFO - [2022-07-29 00:57:50,033] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:57:50,064] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:57:50,107] {logging_mixin.py:115} INFO - [2022-07-29 00:57:50,107] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:57:50,130] {logging_mixin.py:115} INFO - [2022-07-29 00:57:50,130] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:57:50,141] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.126 seconds
+[2022-07-29 00:58:20,323] {processor.py:153} INFO - Started process (PID=66466) to work on /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:58:20,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/loaddata_rds.py for tasks to queue
+[2022-07-29 00:58:20,332] {logging_mixin.py:115} INFO - [2022-07-29 00:58:20,332] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:58:20,374] {processor.py:651} INFO - DAG(s) dict_keys(['glue_af_pipeline']) retrieved from /opt/airflow/dags/loaddata_rds.py
+[2022-07-29 00:58:20,410] {logging_mixin.py:115} INFO - [2022-07-29 00:58:20,410] {dag.py:2420} INFO - Sync 1 DAGs
+[2022-07-29 00:58:20,436] {logging_mixin.py:115} INFO - [2022-07-29 00:58:20,436] {dag.py:2972} INFO - Setting next_dagrun for glue_af_pipeline to None, run_after=None
+[2022-07-29 00:58:20,451] {processor.py:161} INFO - Processing /opt/airflow/dags/loaddata_rds.py took 0.135 seconds

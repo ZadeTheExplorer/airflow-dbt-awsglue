@@ -1,0 +1,1624 @@
+[2022-07-29 00:00:06,977] {processor.py:153} INFO - Started process (PID=58792) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:00:06,979] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:00:06,982] {logging_mixin.py:115} INFO - [2022-07-29 00:00:06,981] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:00:07,130] {logging_mixin.py:115} INFO - [2022-07-29 00:00:07,127] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:00:07,132] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:00:07,155] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.183 seconds
+[2022-07-29 00:00:37,378] {processor.py:153} INFO - Started process (PID=58863) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:00:37,381] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:00:37,383] {logging_mixin.py:115} INFO - [2022-07-29 00:00:37,383] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:00:37,482] {logging_mixin.py:115} INFO - [2022-07-29 00:00:37,480] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:00:37,484] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:00:37,501] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.127 seconds
+[2022-07-29 00:01:08,279] {processor.py:153} INFO - Started process (PID=58932) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:01:08,282] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:01:08,284] {logging_mixin.py:115} INFO - [2022-07-29 00:01:08,284] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:01:08,404] {logging_mixin.py:115} INFO - [2022-07-29 00:01:08,401] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:01:08,406] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:01:08,436] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.169 seconds
+[2022-07-29 00:01:38,519] {processor.py:153} INFO - Started process (PID=59002) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:01:38,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:01:38,526] {logging_mixin.py:115} INFO - [2022-07-29 00:01:38,525] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:01:38,676] {logging_mixin.py:115} INFO - [2022-07-29 00:01:38,673] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:01:38,679] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:01:38,700] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.194 seconds
+[2022-07-29 00:02:08,922] {processor.py:153} INFO - Started process (PID=59060) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:02:08,925] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:02:08,931] {logging_mixin.py:115} INFO - [2022-07-29 00:02:08,931] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:02:09,064] {logging_mixin.py:115} INFO - [2022-07-29 00:02:09,061] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:02:09,067] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:02:09,087] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.168 seconds
+[2022-07-29 00:02:39,394] {processor.py:153} INFO - Started process (PID=59129) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:02:39,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:02:39,398] {logging_mixin.py:115} INFO - [2022-07-29 00:02:39,398] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:02:39,530] {logging_mixin.py:115} INFO - [2022-07-29 00:02:39,528] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:02:39,532] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:02:39,555] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.164 seconds
+[2022-07-29 00:03:09,615] {processor.py:153} INFO - Started process (PID=59199) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:03:09,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:03:09,620] {logging_mixin.py:115} INFO - [2022-07-29 00:03:09,620] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:03:09,752] {logging_mixin.py:115} INFO - [2022-07-29 00:03:09,750] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:03:09,757] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:03:09,779] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.169 seconds
+[2022-07-29 00:03:40,207] {processor.py:153} INFO - Started process (PID=59268) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:03:40,210] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:03:40,213] {logging_mixin.py:115} INFO - [2022-07-29 00:03:40,213] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:03:40,333] {logging_mixin.py:115} INFO - [2022-07-29 00:03:40,327] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:03:40,335] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:03:40,357] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.156 seconds
+[2022-07-29 00:04:10,594] {processor.py:153} INFO - Started process (PID=59327) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:04:10,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:04:10,599] {logging_mixin.py:115} INFO - [2022-07-29 00:04:10,598] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:04:10,732] {logging_mixin.py:115} INFO - [2022-07-29 00:04:10,721] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:04:10,734] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:04:10,758] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.175 seconds
+[2022-07-29 00:04:40,895] {processor.py:153} INFO - Started process (PID=59398) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:04:40,898] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:04:40,901] {logging_mixin.py:115} INFO - [2022-07-29 00:04:40,901] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:04:41,027] {logging_mixin.py:115} INFO - [2022-07-29 00:04:41,025] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:04:41,029] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:04:41,056] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.167 seconds
+[2022-07-29 00:05:11,405] {processor.py:153} INFO - Started process (PID=59468) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:05:11,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:05:11,411] {logging_mixin.py:115} INFO - [2022-07-29 00:05:11,411] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:05:11,515] {logging_mixin.py:115} INFO - [2022-07-29 00:05:11,513] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:05:11,517] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:05:11,537] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.137 seconds
+[2022-07-29 00:05:41,865] {processor.py:153} INFO - Started process (PID=59525) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:05:41,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:05:41,876] {logging_mixin.py:115} INFO - [2022-07-29 00:05:41,875] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:05:42,002] {logging_mixin.py:115} INFO - [2022-07-29 00:05:41,999] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:05:42,004] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:05:42,029] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.169 seconds
+[2022-07-29 00:06:12,372] {processor.py:153} INFO - Started process (PID=59598) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:06:12,373] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:06:12,375] {logging_mixin.py:115} INFO - [2022-07-29 00:06:12,375] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:06:12,459] {logging_mixin.py:115} INFO - [2022-07-29 00:06:12,457] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:06:12,461] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:06:12,480] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.112 seconds
+[2022-07-29 00:06:42,543] {processor.py:153} INFO - Started process (PID=59666) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:06:42,545] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:06:42,549] {logging_mixin.py:115} INFO - [2022-07-29 00:06:42,549] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:06:42,621] {logging_mixin.py:115} INFO - [2022-07-29 00:06:42,619] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:06:42,623] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:06:42,643] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.105 seconds
+[2022-07-29 00:07:12,821] {processor.py:153} INFO - Started process (PID=59735) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:07:12,824] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:07:12,825] {logging_mixin.py:115} INFO - [2022-07-29 00:07:12,825] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:07:12,895] {logging_mixin.py:115} INFO - [2022-07-29 00:07:12,893] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:07:12,896] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:07:12,913] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.096 seconds
+[2022-07-29 00:07:43,047] {processor.py:153} INFO - Started process (PID=59802) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:07:43,049] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:07:43,050] {logging_mixin.py:115} INFO - [2022-07-29 00:07:43,050] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:07:43,171] {logging_mixin.py:115} INFO - [2022-07-29 00:07:43,169] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:07:43,173] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:07:43,193] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.149 seconds
+[2022-07-29 00:08:13,261] {processor.py:153} INFO - Started process (PID=59861) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:08:13,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:08:13,263] {logging_mixin.py:115} INFO - [2022-07-29 00:08:13,263] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:08:13,324] {logging_mixin.py:115} INFO - [2022-07-29 00:08:13,322] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:08:13,326] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:08:13,342] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.084 seconds
+[2022-07-29 00:08:43,408] {processor.py:153} INFO - Started process (PID=59934) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:08:43,410] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:08:43,412] {logging_mixin.py:115} INFO - [2022-07-29 00:08:43,412] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:08:43,497] {logging_mixin.py:115} INFO - [2022-07-29 00:08:43,492] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:08:43,499] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:08:43,520] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.114 seconds
+[2022-07-29 00:09:13,593] {processor.py:153} INFO - Started process (PID=60005) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:09:13,594] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:09:13,596] {logging_mixin.py:115} INFO - [2022-07-29 00:09:13,596] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:09:13,731] {logging_mixin.py:115} INFO - [2022-07-29 00:09:13,728] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:09:13,733] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:09:13,756] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.167 seconds
+[2022-07-29 00:09:43,915] {processor.py:153} INFO - Started process (PID=60077) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:09:43,916] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:09:43,917] {logging_mixin.py:115} INFO - [2022-07-29 00:09:43,917] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:09:44,021] {logging_mixin.py:115} INFO - [2022-07-29 00:09:44,019] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:09:44,023] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:09:44,047] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.137 seconds
+[2022-07-29 00:10:14,200] {processor.py:153} INFO - Started process (PID=60134) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:10:14,203] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:10:14,205] {logging_mixin.py:115} INFO - [2022-07-29 00:10:14,205] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:10:14,269] {logging_mixin.py:115} INFO - [2022-07-29 00:10:14,267] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:10:14,270] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:10:14,287] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.091 seconds
+[2022-07-29 00:10:44,515] {processor.py:153} INFO - Started process (PID=60202) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:10:44,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:10:44,520] {logging_mixin.py:115} INFO - [2022-07-29 00:10:44,520] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:10:44,599] {logging_mixin.py:115} INFO - [2022-07-29 00:10:44,597] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:10:44,601] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:10:44,622] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.112 seconds
+[2022-07-29 00:11:14,739] {processor.py:153} INFO - Started process (PID=60270) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:11:14,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:11:14,744] {logging_mixin.py:115} INFO - [2022-07-29 00:11:14,744] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:11:14,824] {logging_mixin.py:115} INFO - [2022-07-29 00:11:14,821] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:11:14,825] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:11:14,840] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.104 seconds
+[2022-07-29 00:11:45,055] {processor.py:153} INFO - Started process (PID=60337) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:11:45,058] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:11:45,060] {logging_mixin.py:115} INFO - [2022-07-29 00:11:45,059] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:11:45,141] {logging_mixin.py:115} INFO - [2022-07-29 00:11:45,139] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:11:45,143] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:11:45,171] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.123 seconds
+[2022-07-29 00:12:15,376] {processor.py:153} INFO - Started process (PID=60400) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:12:15,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:12:15,392] {logging_mixin.py:115} INFO - [2022-07-29 00:12:15,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:12:15,513] {logging_mixin.py:115} INFO - [2022-07-29 00:12:15,509] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:12:15,515] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:12:15,540] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.169 seconds
+[2022-07-29 00:12:45,671] {processor.py:153} INFO - Started process (PID=60471) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:12:45,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:12:45,675] {logging_mixin.py:115} INFO - [2022-07-29 00:12:45,675] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:12:45,760] {logging_mixin.py:115} INFO - [2022-07-29 00:12:45,758] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:12:45,762] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:12:45,778] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.112 seconds
+[2022-07-29 00:13:15,927] {processor.py:153} INFO - Started process (PID=60540) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:13:15,930] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:13:15,934] {logging_mixin.py:115} INFO - [2022-07-29 00:13:15,933] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:13:16,067] {logging_mixin.py:115} INFO - [2022-07-29 00:13:16,064] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:13:16,069] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:13:16,092] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.172 seconds
+[2022-07-29 00:13:46,233] {processor.py:153} INFO - Started process (PID=60608) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:13:46,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:13:46,236] {logging_mixin.py:115} INFO - [2022-07-29 00:13:46,236] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:13:46,393] {logging_mixin.py:115} INFO - [2022-07-29 00:13:46,390] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:13:46,394] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:13:46,427] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.198 seconds
+[2022-07-29 00:14:16,507] {processor.py:153} INFO - Started process (PID=60666) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:14:16,510] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:14:16,512] {logging_mixin.py:115} INFO - [2022-07-29 00:14:16,512] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:14:16,684] {logging_mixin.py:115} INFO - [2022-07-29 00:14:16,682] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:14:16,685] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:14:16,704] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.203 seconds
+[2022-07-29 00:14:47,041] {processor.py:153} INFO - Started process (PID=60732) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:14:47,043] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:14:47,046] {logging_mixin.py:115} INFO - [2022-07-29 00:14:47,046] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:14:47,134] {logging_mixin.py:115} INFO - [2022-07-29 00:14:47,132] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:14:47,137] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:14:47,154] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.117 seconds
+[2022-07-29 00:15:17,461] {processor.py:153} INFO - Started process (PID=60807) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:15:17,464] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:15:17,466] {logging_mixin.py:115} INFO - [2022-07-29 00:15:17,466] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:15:17,559] {logging_mixin.py:115} INFO - [2022-07-29 00:15:17,557] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:15:17,559] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:15:17,576] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.123 seconds
+[2022-07-29 00:15:47,817] {processor.py:153} INFO - Started process (PID=60879) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:15:47,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:15:47,822] {logging_mixin.py:115} INFO - [2022-07-29 00:15:47,821] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:15:47,916] {logging_mixin.py:115} INFO - [2022-07-29 00:15:47,915] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:15:47,918] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:15:47,933] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.120 seconds
+[2022-07-29 00:16:18,020] {processor.py:153} INFO - Started process (PID=60937) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:16:18,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:16:18,033] {logging_mixin.py:115} INFO - [2022-07-29 00:16:18,033] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:16:18,137] {logging_mixin.py:115} INFO - [2022-07-29 00:16:18,134] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:16:18,139] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:16:18,154] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.139 seconds
+[2022-07-29 00:16:48,238] {processor.py:153} INFO - Started process (PID=61006) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:16:48,241] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:16:48,243] {logging_mixin.py:115} INFO - [2022-07-29 00:16:48,243] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:16:48,346] {logging_mixin.py:115} INFO - [2022-07-29 00:16:48,343] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:16:48,347] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:16:48,369] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.134 seconds
+[2022-07-29 00:17:18,548] {processor.py:153} INFO - Started process (PID=61075) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:17:18,550] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:17:18,551] {logging_mixin.py:115} INFO - [2022-07-29 00:17:18,551] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:17:18,666] {logging_mixin.py:115} INFO - [2022-07-29 00:17:18,664] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:17:18,668] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:17:18,689] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.145 seconds
+[2022-07-29 00:17:48,886] {processor.py:153} INFO - Started process (PID=61142) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:17:48,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:17:48,888] {logging_mixin.py:115} INFO - [2022-07-29 00:17:48,888] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:17:48,977] {logging_mixin.py:115} INFO - [2022-07-29 00:17:48,975] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:17:48,979] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:17:48,995] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.115 seconds
+[2022-07-29 00:18:19,151] {processor.py:153} INFO - Started process (PID=61200) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:18:19,152] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:18:19,155] {logging_mixin.py:115} INFO - [2022-07-29 00:18:19,155] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:18:19,250] {logging_mixin.py:115} INFO - [2022-07-29 00:18:19,248] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:18:19,251] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:18:19,267] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.120 seconds
+[2022-07-29 00:18:49,384] {processor.py:153} INFO - Started process (PID=61269) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:18:49,388] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:18:49,391] {logging_mixin.py:115} INFO - [2022-07-29 00:18:49,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:18:49,478] {logging_mixin.py:115} INFO - [2022-07-29 00:18:49,476] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:18:49,480] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:18:49,498] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.118 seconds
+[2022-07-29 00:19:19,757] {processor.py:153} INFO - Started process (PID=61340) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:19:19,758] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:19:19,760] {logging_mixin.py:115} INFO - [2022-07-29 00:19:19,760] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:19:19,846] {logging_mixin.py:115} INFO - [2022-07-29 00:19:19,844] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:19:19,847] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:19:19,863] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.110 seconds
+[2022-07-29 00:19:50,015] {processor.py:153} INFO - Started process (PID=61410) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:19:50,017] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:19:50,019] {logging_mixin.py:115} INFO - [2022-07-29 00:19:50,019] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:19:50,114] {logging_mixin.py:115} INFO - [2022-07-29 00:19:50,112] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:19:50,116] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:19:50,136] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.124 seconds
+[2022-07-29 00:20:21,012] {processor.py:153} INFO - Started process (PID=61469) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:20:21,014] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:20:21,018] {logging_mixin.py:115} INFO - [2022-07-29 00:20:21,017] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:20:21,190] {logging_mixin.py:115} INFO - [2022-07-29 00:20:21,186] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:20:21,192] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:20:21,214] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.211 seconds
+[2022-07-29 00:20:51,390] {processor.py:153} INFO - Started process (PID=61536) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:20:51,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:20:51,398] {logging_mixin.py:115} INFO - [2022-07-29 00:20:51,398] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:20:51,524] {logging_mixin.py:115} INFO - [2022-07-29 00:20:51,521] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:20:51,526] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:20:51,548] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.168 seconds
+[2022-07-29 00:21:21,656] {processor.py:153} INFO - Started process (PID=61603) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:21:21,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:21:21,662] {logging_mixin.py:115} INFO - [2022-07-29 00:21:21,662] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:21:21,807] {logging_mixin.py:115} INFO - [2022-07-29 00:21:21,804] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:21:21,811] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:21:21,838] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.186 seconds
+[2022-07-29 00:21:51,937] {processor.py:153} INFO - Started process (PID=61674) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:21:51,939] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:21:51,942] {logging_mixin.py:115} INFO - [2022-07-29 00:21:51,942] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:21:52,053] {logging_mixin.py:115} INFO - [2022-07-29 00:21:52,049] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:21:52,055] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:21:52,075] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.141 seconds
+[2022-07-29 00:22:22,206] {processor.py:153} INFO - Started process (PID=61732) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:22:22,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:22:22,211] {logging_mixin.py:115} INFO - [2022-07-29 00:22:22,210] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:22:22,330] {logging_mixin.py:115} INFO - [2022-07-29 00:22:22,324] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:22:22,332] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:22:22,352] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.150 seconds
+[2022-07-29 00:22:52,680] {processor.py:153} INFO - Started process (PID=61800) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:22:52,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:22:52,686] {logging_mixin.py:115} INFO - [2022-07-29 00:22:52,686] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:22:52,799] {logging_mixin.py:115} INFO - [2022-07-29 00:22:52,797] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:22:52,801] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:22:52,824] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.154 seconds
+[2022-07-29 00:23:23,019] {processor.py:153} INFO - Started process (PID=61871) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:23:23,021] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:23:23,024] {logging_mixin.py:115} INFO - [2022-07-29 00:23:23,023] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:23:23,147] {logging_mixin.py:115} INFO - [2022-07-29 00:23:23,145] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:23:23,149] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:23:23,174] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.159 seconds
+[2022-07-29 00:23:53,349] {processor.py:153} INFO - Started process (PID=61941) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:23:53,352] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:23:53,353] {logging_mixin.py:115} INFO - [2022-07-29 00:23:53,353] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:23:53,478] {logging_mixin.py:115} INFO - [2022-07-29 00:23:53,475] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:23:53,479] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:23:53,497] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.154 seconds
+[2022-07-29 00:24:23,563] {processor.py:153} INFO - Started process (PID=61999) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:24:23,566] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:24:23,569] {logging_mixin.py:115} INFO - [2022-07-29 00:24:23,569] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:24:23,686] {logging_mixin.py:115} INFO - [2022-07-29 00:24:23,682] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:24:23,688] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:24:23,707] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.149 seconds
+[2022-07-29 00:24:54,197] {processor.py:153} INFO - Started process (PID=62067) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:24:54,199] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:24:54,201] {logging_mixin.py:115} INFO - [2022-07-29 00:24:54,201] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:24:54,318] {logging_mixin.py:115} INFO - [2022-07-29 00:24:54,315] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:24:54,321] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:24:54,342] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.163 seconds
+[2022-07-29 00:25:24,474] {processor.py:153} INFO - Started process (PID=62137) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:25:24,478] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:25:24,480] {logging_mixin.py:115} INFO - [2022-07-29 00:25:24,480] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:25:24,618] {logging_mixin.py:115} INFO - [2022-07-29 00:25:24,613] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:25:24,630] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:25:24,654] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.192 seconds
+[2022-07-29 00:25:54,893] {processor.py:153} INFO - Started process (PID=62204) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:25:54,896] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:25:54,897] {logging_mixin.py:115} INFO - [2022-07-29 00:25:54,897] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:25:55,026] {logging_mixin.py:115} INFO - [2022-07-29 00:25:55,023] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:25:55,027] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:25:55,052] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.164 seconds
+[2022-07-29 00:26:25,154] {processor.py:153} INFO - Started process (PID=62264) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:26:25,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:26:25,158] {logging_mixin.py:115} INFO - [2022-07-29 00:26:25,158] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:26:25,274] {logging_mixin.py:115} INFO - [2022-07-29 00:26:25,272] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:26:25,277] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:26:25,298] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.149 seconds
+[2022-07-29 00:26:55,347] {processor.py:153} INFO - Started process (PID=62331) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:26:55,349] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:26:55,350] {logging_mixin.py:115} INFO - [2022-07-29 00:26:55,350] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:26:55,484] {logging_mixin.py:115} INFO - [2022-07-29 00:26:55,478] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:26:55,486] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:26:55,523] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.180 seconds
+[2022-07-29 00:27:25,693] {processor.py:153} INFO - Started process (PID=62400) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:27:25,695] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:27:25,697] {logging_mixin.py:115} INFO - [2022-07-29 00:27:25,697] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:27:25,816] {logging_mixin.py:115} INFO - [2022-07-29 00:27:25,814] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:27:25,818] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:27:25,841] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.155 seconds
+[2022-07-29 00:27:56,067] {processor.py:153} INFO - Started process (PID=62467) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:27:56,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:27:56,073] {logging_mixin.py:115} INFO - [2022-07-29 00:27:56,072] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:27:56,208] {logging_mixin.py:115} INFO - [2022-07-29 00:27:56,204] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:27:56,209] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:27:56,234] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.183 seconds
+[2022-07-29 00:28:26,278] {processor.py:153} INFO - Started process (PID=62534) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:28:26,280] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:28:26,281] {logging_mixin.py:115} INFO - [2022-07-29 00:28:26,281] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:28:26,397] {logging_mixin.py:115} INFO - [2022-07-29 00:28:26,394] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:28:26,399] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:28:26,418] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.143 seconds
+[2022-07-29 00:28:56,921] {processor.py:153} INFO - Started process (PID=62601) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:28:56,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:28:56,925] {logging_mixin.py:115} INFO - [2022-07-29 00:28:56,924] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:28:57,035] {logging_mixin.py:115} INFO - [2022-07-29 00:28:57,033] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:28:57,036] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:28:57,057] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.138 seconds
+[2022-07-29 00:29:27,541] {processor.py:153} INFO - Started process (PID=62668) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:29:27,543] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:29:27,545] {logging_mixin.py:115} INFO - [2022-07-29 00:29:27,545] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:29:27,678] {logging_mixin.py:115} INFO - [2022-07-29 00:29:27,671] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:29:27,680] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:29:27,705] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.170 seconds
+[2022-07-29 00:29:57,885] {processor.py:153} INFO - Started process (PID=62726) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:29:57,889] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:29:57,902] {logging_mixin.py:115} INFO - [2022-07-29 00:29:57,901] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:29:58,009] {logging_mixin.py:115} INFO - [2022-07-29 00:29:58,007] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:29:58,011] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:29:58,032] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.151 seconds
+[2022-07-29 00:30:28,335] {processor.py:153} INFO - Started process (PID=62797) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:30:28,338] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:30:28,340] {logging_mixin.py:115} INFO - [2022-07-29 00:30:28,340] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:30:28,462] {logging_mixin.py:115} INFO - [2022-07-29 00:30:28,460] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:30:28,464] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:30:28,485] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.155 seconds
+[2022-07-29 00:30:59,487] {processor.py:153} INFO - Started process (PID=62867) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:30:59,490] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:30:59,492] {logging_mixin.py:115} INFO - [2022-07-29 00:30:59,491] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:30:59,610] {logging_mixin.py:115} INFO - [2022-07-29 00:30:59,607] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:30:59,611] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:30:59,633] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.152 seconds
+[2022-07-29 00:31:29,817] {processor.py:153} INFO - Started process (PID=62934) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:31:29,819] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:31:29,821] {logging_mixin.py:115} INFO - [2022-07-29 00:31:29,821] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:31:29,940] {logging_mixin.py:115} INFO - [2022-07-29 00:31:29,938] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:31:29,943] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:31:29,965] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.152 seconds
+[2022-07-29 00:32:00,123] {processor.py:153} INFO - Started process (PID=62992) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:32:00,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:32:00,129] {logging_mixin.py:115} INFO - [2022-07-29 00:32:00,129] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:32:00,265] {logging_mixin.py:115} INFO - [2022-07-29 00:32:00,263] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:32:00,267] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:32:00,285] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.167 seconds
+[2022-07-29 00:32:30,669] {processor.py:153} INFO - Started process (PID=63067) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:32:30,674] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:32:30,677] {logging_mixin.py:115} INFO - [2022-07-29 00:32:30,677] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:32:30,817] {logging_mixin.py:115} INFO - [2022-07-29 00:32:30,813] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:32:30,818] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:32:30,839] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.175 seconds
+[2022-07-29 00:33:01,188] {processor.py:153} INFO - Started process (PID=63138) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:33:01,192] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:33:01,194] {logging_mixin.py:115} INFO - [2022-07-29 00:33:01,194] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:33:01,333] {logging_mixin.py:115} INFO - [2022-07-29 00:33:01,330] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:33:01,336] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:33:01,357] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.174 seconds
+[2022-07-29 00:33:31,675] {processor.py:153} INFO - Started process (PID=63206) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:33:31,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:33:31,680] {logging_mixin.py:115} INFO - [2022-07-29 00:33:31,680] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:33:31,800] {logging_mixin.py:115} INFO - [2022-07-29 00:33:31,797] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:33:31,801] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:33:31,824] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.159 seconds
+[2022-07-29 00:34:01,932] {processor.py:153} INFO - Started process (PID=63268) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:34:01,935] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:34:01,937] {logging_mixin.py:115} INFO - [2022-07-29 00:34:01,937] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:34:02,070] {logging_mixin.py:115} INFO - [2022-07-29 00:34:02,067] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:34:02,072] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:34:02,108] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.181 seconds
+[2022-07-29 00:34:32,505] {processor.py:153} INFO - Started process (PID=63336) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:34:32,507] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:34:32,510] {logging_mixin.py:115} INFO - [2022-07-29 00:34:32,510] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:34:32,626] {logging_mixin.py:115} INFO - [2022-07-29 00:34:32,622] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:34:32,633] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:34:32,660] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.161 seconds
+[2022-07-29 00:35:02,944] {processor.py:153} INFO - Started process (PID=63403) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:35:02,947] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:35:02,949] {logging_mixin.py:115} INFO - [2022-07-29 00:35:02,949] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:35:03,053] {logging_mixin.py:115} INFO - [2022-07-29 00:35:03,049] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:35:03,054] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:35:03,076] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.137 seconds
+[2022-07-29 00:35:33,177] {processor.py:153} INFO - Started process (PID=63476) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:35:33,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:35:33,181] {logging_mixin.py:115} INFO - [2022-07-29 00:35:33,181] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:35:33,284] {logging_mixin.py:115} INFO - [2022-07-29 00:35:33,281] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:35:33,286] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:35:33,302] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.130 seconds
+[2022-07-29 00:36:03,538] {processor.py:153} INFO - Started process (PID=63536) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:36:03,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:36:03,543] {logging_mixin.py:115} INFO - [2022-07-29 00:36:03,543] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:36:03,700] {logging_mixin.py:115} INFO - [2022-07-29 00:36:03,692] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:36:03,703] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:36:03,727] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.196 seconds
+[2022-07-29 00:36:34,010] {processor.py:153} INFO - Started process (PID=63608) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:36:34,013] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:36:34,015] {logging_mixin.py:115} INFO - [2022-07-29 00:36:34,015] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:36:34,126] {logging_mixin.py:115} INFO - [2022-07-29 00:36:34,124] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:36:34,130] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:36:34,149] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.145 seconds
+[2022-07-29 00:37:04,464] {processor.py:153} INFO - Started process (PID=63678) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:37:04,467] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:37:04,469] {logging_mixin.py:115} INFO - [2022-07-29 00:37:04,468] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:37:04,605] {logging_mixin.py:115} INFO - [2022-07-29 00:37:04,603] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:37:04,607] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:37:04,626] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.166 seconds
+[2022-07-29 00:37:34,721] {processor.py:153} INFO - Started process (PID=63737) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:37:34,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:37:34,726] {logging_mixin.py:115} INFO - [2022-07-29 00:37:34,726] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:37:34,885] {logging_mixin.py:115} INFO - [2022-07-29 00:37:34,882] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:37:34,886] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:37:34,908] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.195 seconds
+[2022-07-29 00:38:05,138] {processor.py:153} INFO - Started process (PID=63810) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:38:05,142] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:38:05,144] {logging_mixin.py:115} INFO - [2022-07-29 00:38:05,144] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:38:05,254] {logging_mixin.py:115} INFO - [2022-07-29 00:38:05,252] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:38:05,256] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:38:05,278] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.145 seconds
+[2022-07-29 00:38:35,492] {processor.py:153} INFO - Started process (PID=63881) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:38:35,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:38:35,498] {logging_mixin.py:115} INFO - [2022-07-29 00:38:35,498] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:38:35,646] {logging_mixin.py:115} INFO - [2022-07-29 00:38:35,643] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:38:35,648] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:38:35,677] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.192 seconds
+[2022-07-29 00:39:06,086] {processor.py:153} INFO - Started process (PID=63949) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:39:06,089] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:39:06,091] {logging_mixin.py:115} INFO - [2022-07-29 00:39:06,091] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:39:06,232] {logging_mixin.py:115} INFO - [2022-07-29 00:39:06,229] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:39:06,233] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:39:06,254] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.174 seconds
+[2022-07-29 00:39:36,350] {processor.py:153} INFO - Started process (PID=64009) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:39:36,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:39:36,356] {logging_mixin.py:115} INFO - [2022-07-29 00:39:36,356] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:39:36,497] {logging_mixin.py:115} INFO - [2022-07-29 00:39:36,494] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:39:36,500] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:39:36,523] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.178 seconds
+[2022-07-29 00:40:06,797] {processor.py:153} INFO - Started process (PID=64081) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:40:06,800] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:40:06,804] {logging_mixin.py:115} INFO - [2022-07-29 00:40:06,804] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:40:06,995] {logging_mixin.py:115} INFO - [2022-07-29 00:40:06,991] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:40:06,997] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:40:07,035] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.252 seconds
+[2022-07-29 00:40:37,150] {processor.py:153} INFO - Started process (PID=64150) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:40:37,152] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:40:37,156] {logging_mixin.py:115} INFO - [2022-07-29 00:40:37,156] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:40:37,240] {logging_mixin.py:115} INFO - [2022-07-29 00:40:37,237] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:40:37,242] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:40:37,260] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.113 seconds
+[2022-07-29 00:41:07,665] {processor.py:153} INFO - Started process (PID=64210) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:41:07,668] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:41:07,671] {logging_mixin.py:115} INFO - [2022-07-29 00:41:07,670] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:41:07,803] {logging_mixin.py:115} INFO - [2022-07-29 00:41:07,801] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:41:07,805] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:41:07,826] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.167 seconds
+[2022-07-29 00:41:38,051] {processor.py:153} INFO - Started process (PID=64276) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:41:38,053] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:41:38,054] {logging_mixin.py:115} INFO - [2022-07-29 00:41:38,054] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:41:38,179] {logging_mixin.py:115} INFO - [2022-07-29 00:41:38,177] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:41:38,181] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:41:38,203] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.157 seconds
+[2022-07-29 00:42:08,371] {processor.py:153} INFO - Started process (PID=64347) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:42:08,373] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:42:08,375] {logging_mixin.py:115} INFO - [2022-07-29 00:42:08,375] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:42:08,503] {logging_mixin.py:115} INFO - [2022-07-29 00:42:08,500] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:42:08,504] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:42:08,530] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.165 seconds
+[2022-07-29 00:42:39,065] {processor.py:153} INFO - Started process (PID=64417) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:42:39,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:42:39,070] {logging_mixin.py:115} INFO - [2022-07-29 00:42:39,070] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:42:39,195] {logging_mixin.py:115} INFO - [2022-07-29 00:42:39,192] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:42:39,196] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:42:39,218] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.158 seconds
+[2022-07-29 00:43:09,290] {processor.py:153} INFO - Started process (PID=64474) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:43:09,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:43:09,295] {logging_mixin.py:115} INFO - [2022-07-29 00:43:09,295] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:43:09,388] {logging_mixin.py:115} INFO - [2022-07-29 00:43:09,385] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:43:09,392] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:43:09,411] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.123 seconds
+[2022-07-29 00:43:39,729] {processor.py:153} INFO - Started process (PID=64540) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:43:39,731] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:43:39,733] {logging_mixin.py:115} INFO - [2022-07-29 00:43:39,733] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:43:39,844] {logging_mixin.py:115} INFO - [2022-07-29 00:43:39,840] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:43:39,846] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:43:39,869] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.144 seconds
+[2022-07-29 00:44:10,117] {processor.py:153} INFO - Started process (PID=64607) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:44:10,119] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:44:10,121] {logging_mixin.py:115} INFO - [2022-07-29 00:44:10,121] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:44:10,249] {logging_mixin.py:115} INFO - [2022-07-29 00:44:10,247] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:44:10,252] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:44:10,272] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.158 seconds
+[2022-07-29 00:44:40,371] {processor.py:153} INFO - Started process (PID=64675) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:44:40,376] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:44:40,378] {logging_mixin.py:115} INFO - [2022-07-29 00:44:40,378] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:44:40,599] {logging_mixin.py:115} INFO - [2022-07-29 00:44:40,596] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:44:40,601] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:44:40,634] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.278 seconds
+[2022-07-29 00:45:10,752] {processor.py:153} INFO - Started process (PID=64732) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:45:10,755] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:45:10,758] {logging_mixin.py:115} INFO - [2022-07-29 00:45:10,758] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:45:10,864] {logging_mixin.py:115} INFO - [2022-07-29 00:45:10,861] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:45:10,865] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:45:10,882] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.141 seconds
+[2022-07-29 00:45:41,216] {processor.py:153} INFO - Started process (PID=64802) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:45:41,218] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:45:41,219] {logging_mixin.py:115} INFO - [2022-07-29 00:45:41,219] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:45:41,330] {logging_mixin.py:115} INFO - [2022-07-29 00:45:41,327] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:45:41,332] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:45:41,353] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.140 seconds
+[2022-07-29 00:46:11,584] {processor.py:153} INFO - Started process (PID=64871) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:46:11,585] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:46:11,587] {logging_mixin.py:115} INFO - [2022-07-29 00:46:11,587] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:46:11,683] {logging_mixin.py:115} INFO - [2022-07-29 00:46:11,678] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:46:11,686] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:46:11,713] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.133 seconds
+[2022-07-29 00:46:42,116] {processor.py:153} INFO - Started process (PID=64928) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:46:42,119] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:46:42,123] {logging_mixin.py:115} INFO - [2022-07-29 00:46:42,123] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:46:42,239] {logging_mixin.py:115} INFO - [2022-07-29 00:46:42,236] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:46:42,241] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:46:42,259] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.146 seconds
+[2022-07-29 00:47:12,516] {processor.py:153} INFO - Started process (PID=64997) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:47:12,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:47:12,520] {logging_mixin.py:115} INFO - [2022-07-29 00:47:12,520] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:47:12,628] {logging_mixin.py:115} INFO - [2022-07-29 00:47:12,625] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:47:12,630] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:47:12,650] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.140 seconds
+[2022-07-29 00:47:42,842] {processor.py:153} INFO - Started process (PID=65067) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:47:42,844] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:47:42,845] {logging_mixin.py:115} INFO - [2022-07-29 00:47:42,845] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:47:42,924] {logging_mixin.py:115} INFO - [2022-07-29 00:47:42,922] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:47:42,925] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:47:42,945] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.106 seconds
+[2022-07-29 00:48:13,081] {processor.py:153} INFO - Started process (PID=65138) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:48:13,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:48:13,085] {logging_mixin.py:115} INFO - [2022-07-29 00:48:13,085] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:48:13,150] {logging_mixin.py:115} INFO - [2022-07-29 00:48:13,148] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:48:13,152] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:48:13,167] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.090 seconds
+[2022-07-29 00:48:43,450] {processor.py:153} INFO - Started process (PID=65197) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:48:43,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:48:43,453] {logging_mixin.py:115} INFO - [2022-07-29 00:48:43,453] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:48:43,556] {logging_mixin.py:115} INFO - [2022-07-29 00:48:43,553] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:48:43,559] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:48:43,579] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.132 seconds
+[2022-07-29 00:49:14,322] {processor.py:153} INFO - Started process (PID=65265) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:49:14,324] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:49:14,325] {logging_mixin.py:115} INFO - [2022-07-29 00:49:14,325] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:49:14,390] {logging_mixin.py:115} INFO - [2022-07-29 00:49:14,388] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:49:14,391] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:49:14,410] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.090 seconds
+[2022-07-29 00:49:44,635] {processor.py:153} INFO - Started process (PID=65335) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:49:44,638] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:49:44,641] {logging_mixin.py:115} INFO - [2022-07-29 00:49:44,641] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:49:44,735] {logging_mixin.py:115} INFO - [2022-07-29 00:49:44,733] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:49:44,738] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:49:44,759] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.129 seconds
+[2022-07-29 00:50:14,808] {processor.py:153} INFO - Started process (PID=65406) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:50:14,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:50:14,811] {logging_mixin.py:115} INFO - [2022-07-29 00:50:14,811] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:50:14,890] {logging_mixin.py:115} INFO - [2022-07-29 00:50:14,888] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:50:14,891] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:50:14,908] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.104 seconds
+[2022-07-29 00:50:45,058] {processor.py:153} INFO - Started process (PID=65476) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:50:45,060] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:50:45,063] {logging_mixin.py:115} INFO - [2022-07-29 00:50:45,063] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:50:45,135] {logging_mixin.py:115} INFO - [2022-07-29 00:50:45,133] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:50:45,137] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:50:45,154] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.099 seconds
+[2022-07-29 00:51:15,222] {processor.py:153} INFO - Started process (PID=65535) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:51:15,224] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:51:15,226] {logging_mixin.py:115} INFO - [2022-07-29 00:51:15,226] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:51:15,289] {logging_mixin.py:115} INFO - [2022-07-29 00:51:15,287] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:51:15,290] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:51:15,309] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.091 seconds
+[2022-07-29 00:51:45,387] {processor.py:153} INFO - Started process (PID=65601) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:51:45,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:51:45,392] {logging_mixin.py:115} INFO - [2022-07-29 00:51:45,392] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:51:45,483] {logging_mixin.py:115} INFO - [2022-07-29 00:51:45,480] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:51:45,484] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:51:45,500] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.117 seconds
+[2022-07-29 00:52:16,248] {processor.py:153} INFO - Started process (PID=65669) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:52:16,250] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:52:16,252] {logging_mixin.py:115} INFO - [2022-07-29 00:52:16,252] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:52:16,330] {logging_mixin.py:115} INFO - [2022-07-29 00:52:16,328] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:52:16,331] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:52:16,349] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.105 seconds
+[2022-07-29 00:52:46,447] {processor.py:153} INFO - Started process (PID=65741) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:52:46,450] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:52:46,452] {logging_mixin.py:115} INFO - [2022-07-29 00:52:46,451] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:52:46,527] {logging_mixin.py:115} INFO - [2022-07-29 00:52:46,525] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:52:46,528] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:52:46,548] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.105 seconds
+[2022-07-29 00:53:16,675] {processor.py:153} INFO - Started process (PID=65812) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:53:16,677] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:53:16,679] {logging_mixin.py:115} INFO - [2022-07-29 00:53:16,679] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:53:16,769] {logging_mixin.py:115} INFO - [2022-07-29 00:53:16,766] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:53:16,770] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:53:16,788] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.118 seconds
+[2022-07-29 00:53:47,066] {processor.py:153} INFO - Started process (PID=65869) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:53:47,068] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:53:47,070] {logging_mixin.py:115} INFO - [2022-07-29 00:53:47,070] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:53:47,141] {logging_mixin.py:115} INFO - [2022-07-29 00:53:47,139] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:53:47,142] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:53:47,160] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.098 seconds
+[2022-07-29 00:54:17,916] {processor.py:153} INFO - Started process (PID=65939) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:54:17,917] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:54:17,919] {logging_mixin.py:115} INFO - [2022-07-29 00:54:17,919] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:54:17,990] {logging_mixin.py:115} INFO - [2022-07-29 00:54:17,988] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:54:17,992] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:54:18,011] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.099 seconds
+[2022-07-29 00:54:48,151] {processor.py:153} INFO - Started process (PID=66009) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:54:48,154] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:54:48,155] {logging_mixin.py:115} INFO - [2022-07-29 00:54:48,155] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:54:48,239] {logging_mixin.py:115} INFO - [2022-07-29 00:54:48,237] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:54:48,241] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:54:48,259] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.112 seconds
+[2022-07-29 00:55:18,775] {processor.py:153} INFO - Started process (PID=66079) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:55:18,777] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:55:18,779] {logging_mixin.py:115} INFO - [2022-07-29 00:55:18,779] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:55:18,891] {logging_mixin.py:115} INFO - [2022-07-29 00:55:18,889] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:55:18,893] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:55:18,912] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.141 seconds
+[2022-07-29 00:55:49,006] {processor.py:153} INFO - Started process (PID=66135) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:55:49,008] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:55:49,010] {logging_mixin.py:115} INFO - [2022-07-29 00:55:49,010] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:55:49,091] {logging_mixin.py:115} INFO - [2022-07-29 00:55:49,088] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:55:49,093] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:55:49,111] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.107 seconds
+[2022-07-29 00:56:19,193] {processor.py:153} INFO - Started process (PID=66203) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:56:19,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:56:19,197] {logging_mixin.py:115} INFO - [2022-07-29 00:56:19,196] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:56:19,285] {logging_mixin.py:115} INFO - [2022-07-29 00:56:19,281] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:56:19,286] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:56:19,306] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.117 seconds
+[2022-07-29 00:56:49,343] {processor.py:153} INFO - Started process (PID=66277) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:56:49,344] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:56:49,346] {logging_mixin.py:115} INFO - [2022-07-29 00:56:49,346] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:56:49,410] {logging_mixin.py:115} INFO - [2022-07-29 00:56:49,407] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:56:49,411] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:56:49,429] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.089 seconds
+[2022-07-29 00:57:19,518] {processor.py:153} INFO - Started process (PID=66342) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:57:19,522] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:57:19,526] {logging_mixin.py:115} INFO - [2022-07-29 00:57:19,526] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:57:19,690] {logging_mixin.py:115} INFO - [2022-07-29 00:57:19,684] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:57:19,692] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:57:19,717] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.206 seconds
+[2022-07-29 00:57:50,027] {processor.py:153} INFO - Started process (PID=66399) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:57:50,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:57:50,034] {logging_mixin.py:115} INFO - [2022-07-29 00:57:50,033] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:57:50,154] {logging_mixin.py:115} INFO - [2022-07-29 00:57:50,150] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:57:50,156] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:57:50,177] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.161 seconds
+[2022-07-29 00:58:20,330] {processor.py:153} INFO - Started process (PID=66467) to work on /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:58:20,332] {processor.py:641} INFO - Processing file /opt/airflow/dags/dbt_test.py for tasks to queue
+[2022-07-29 00:58:20,335] {logging_mixin.py:115} INFO - [2022-07-29 00:58:20,334] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:58:20,476] {logging_mixin.py:115} INFO - [2022-07-29 00:58:20,474] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/dbt_test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_test.py", line 19, in <module>
+    with DAG(dag_id='glue_af_pipeline',
+NameError: name 'DAG' is not defined
+[2022-07-29 00:58:20,477] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_test.py
+[2022-07-29 00:58:20,496] {processor.py:161} INFO - Processing /opt/airflow/dags/dbt_test.py took 0.173 seconds

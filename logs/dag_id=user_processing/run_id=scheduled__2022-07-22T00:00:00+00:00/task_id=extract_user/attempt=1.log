@@ -1,0 +1,26 @@
+[2022-07-28 13:21:47,512] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2022-07-22T00:00:00+00:00 [queued]>
+[2022-07-28 13:21:47,520] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2022-07-22T00:00:00+00:00 [queued]>
+[2022-07-28 13:21:47,521] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 13:21:47,522] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-28 13:21:47,523] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 13:21:47,532] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-22 00:00:00+00:00
+[2022-07-28 13:21:47,538] {standard_task_runner.py:52} INFO - Started process 85 to run task
+[2022-07-28 13:21:47,541] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2022-07-22T00:00:00+00:00', '--job-id', '148', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpo6ljdv_7', '--error-file', '/tmp/tmp9jzm521j']
+[2022-07-28 13:21:47,543] {standard_task_runner.py:80} INFO - Job 148: Subtask extract_user
+[2022-07-28 13:21:47,587] {task_command.py:369} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2022-07-22T00:00:00+00:00 [running]> on host e755cbaa46dc
+[2022-07-28 13:21:47,635] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-22T00:00:00+00:00
+[2022-07-28 13:21:47,636] {http.py:102} INFO - Calling HTTP method
+[2022-07-28 13:21:47,645] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-28 13:21:47,647] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-28 13:21:49,416] {http.py:106} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Akshita","last":"Kumar"},"location":{"street":{"number":1632,"name":"Naiduthota"},"city":"Bathinda","state":"Jharkhand","country":"India","postcode":96232,"coordinates":{"latitude":"7.0875","longitude":"50.3870"},"timezone":{"offset":"-5:00","description":"Eastern Time (US & Canada), Bogota, Lima"}},"email":"akshita.kumar@example.com","login":{"uuid":"07242917-fe4e-4274-841e-7a9fb3c04d62","username":"tinyladybug703","password":"angels","salt":"3r5hDrFq","md5":"38d0684bf778b2bd8f4d9a5a18557231","sha1":"e3aec42c8c45331db7778df1a74647475fcf2198","sha256":"6b80911b4f49f0d1b0071784d03c044502dc05c7222cceb87b51ecc607449ef6"},"dob":{"date":"1979-07-11T07:42:17.449Z","age":43},"registered":{"date":"2021-06-29T15:07:31.074Z","age":1},"phone":"7802841943","cell":"8877170917","id":{"name":"UIDAI","value":"205957041726"},"picture":{"large":"https://randomuser.me/api/portraits/women/69.jpg","medium":"https://randomuser.me/api/portraits/med/women/69.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/69.jpg"},"nat":"IN"}],"info":{"seed":"d4d867cb56c385d4","results":1,"page":1,"version":"1.4"}}
+[2022-07-28 13:21:49,462] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20220722T000000, start_date=20220728T132147, end_date=20220728T132149
+[2022-07-28 13:21:49,518] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-28 13:21:49,551] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

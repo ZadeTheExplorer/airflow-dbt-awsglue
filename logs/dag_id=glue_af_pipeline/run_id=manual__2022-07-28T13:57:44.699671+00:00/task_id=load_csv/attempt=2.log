@@ -1,0 +1,40 @@
+[2022-07-28 13:59:31,742] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: glue_af_pipeline.load_csv manual__2022-07-28T13:57:44.699671+00:00 [queued]>
+[2022-07-28 13:59:31,751] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: glue_af_pipeline.load_csv manual__2022-07-28T13:57:44.699671+00:00 [queued]>
+[2022-07-28 13:59:31,753] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 13:59:31,755] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2022-07-28 13:59:31,756] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 13:59:31,768] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): load_csv> on 2022-07-28 13:57:44.699671+00:00
+[2022-07-28 13:59:31,773] {standard_task_runner.py:52} INFO - Started process 1424 to run task
+[2022-07-28 13:59:31,777] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'glue_af_pipeline', 'load_csv', 'manual__2022-07-28T13:57:44.699671+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/loaddata_rds.py', '--cfg-path', '/tmp/tmpb3hyou3q', '--error-file', '/tmp/tmpwc67qwwf']
+[2022-07-28 13:59:31,778] {standard_task_runner.py:80} INFO - Job 159: Subtask load_csv
+[2022-07-28 13:59:31,836] {task_command.py:371} INFO - Running <TaskInstance: glue_af_pipeline.load_csv manual__2022-07-28T13:57:44.699671+00:00 [running]> on host dd3800c43a8f
+[2022-07-28 13:59:31,886] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=glue_af_pipeline
+AIRFLOW_CTX_TASK_ID=load_csv
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-28T13:57:44.699671+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-28T13:57:44.699671+00:00
+[2022-07-28 13:59:31,888] {postgres.py:127} INFO - Running copy expert: COPY users FROM stdin WITH DELIMITER as ',', filename: /opt/***/dags/Telco-Customer-Churn.csv
+[2022-07-28 13:59:31,898] {base.py:68} INFO - Using connection ID 'postgres' for task execution.
+[2022-07-28 13:59:31,907] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/loaddata_rds.py", line 20, in _store_user
+    filename='/opt/airflow/dags/Telco-Customer-Churn.csv'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 135, in copy_expert
+    cur.copy_expert(sql, file)
+psycopg2.errors.BadCopyFileFormat: extra data after last expected column
+CONTEXT:  COPY users, line 1: "customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService..."
+
+[2022-07-28 13:59:31,917] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=glue_af_pipeline, task_id=load_csv, execution_date=20220728T135744, start_date=20220728T135931, end_date=20220728T135931
+[2022-07-28 13:59:31,925] {standard_task_runner.py:97} ERROR - Failed to execute job 159 for task load_csv (extra data after last expected column
+CONTEXT:  COPY users, line 1: "customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService..."
+; 1424)
+[2022-07-28 13:59:31,951] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-28 13:59:31,975] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

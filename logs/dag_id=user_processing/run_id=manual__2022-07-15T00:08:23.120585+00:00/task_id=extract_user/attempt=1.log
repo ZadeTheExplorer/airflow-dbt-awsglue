@@ -1,0 +1,26 @@
+[2022-07-15 00:08:27,054] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-15T00:08:23.120585+00:00 [queued]>
+[2022-07-15 00:08:27,069] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-15T00:08:23.120585+00:00 [queued]>
+[2022-07-15 00:08:27,071] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-15 00:08:27,072] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-15 00:08:27,073] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-15 00:08:27,095] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-15 00:08:23.120585+00:00
+[2022-07-15 00:08:27,104] {standard_task_runner.py:52} INFO - Started process 548 to run task
+[2022-07-15 00:08:27,108] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'manual__2022-07-15T00:08:23.120585+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp_latslib', '--error-file', '/tmp/tmp17ihz1pp']
+[2022-07-15 00:08:27,110] {standard_task_runner.py:80} INFO - Job 38: Subtask extract_user
+[2022-07-15 00:08:27,186] {task_command.py:369} INFO - Running <TaskInstance: user_processing.extract_user manual__2022-07-15T00:08:23.120585+00:00 [running]> on host 042af4b110d2
+[2022-07-15 00:08:27,243] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-15T00:08:23.120585+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-15T00:08:23.120585+00:00
+[2022-07-15 00:08:27,245] {http.py:102} INFO - Calling HTTP method
+[2022-07-15 00:08:27,257] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-15 00:08:27,260] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-15 00:08:28,235] {http.py:106} INFO - {"results":[{"gender":"female","name":{"title":"Mrs","first":"Dalia","last":"Barrios"},"location":{"street":{"number":168,"name":"Boulevard Aguascalientes"},"city":"Salvatierra","state":"Quintana Roo","country":"Mexico","postcode":18371,"coordinates":{"latitude":"22.3242","longitude":"51.4223"},"timezone":{"offset":"-12:00","description":"Eniwetok, Kwajalein"}},"email":"dalia.barrios@example.com","login":{"uuid":"41a002ab-1c7b-475f-bb9c-ea71a680f198","username":"silverswan674","password":"mandy1","salt":"YCSEv80T","md5":"375041ed28db05a82344964d01a8f0ca","sha1":"4525b251d05992cf762494d79d8a7a54ffc5605b","sha256":"3a9620e5de681b69bae30f747fc714d6a1e81a8abdf2afddac7e7f617ebdcb85"},"dob":{"date":"1972-11-17T14:27:57.456Z","age":49},"registered":{"date":"2003-08-17T02:41:47.319Z","age":18},"phone":"(635) 090 5591","cell":"(656) 850 6697","id":{"name":"NSS","value":"36 85 54 5373 4"},"picture":{"large":"https://randomuser.me/api/portraits/women/62.jpg","medium":"https://randomuser.me/api/portraits/med/women/62.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/62.jpg"},"nat":"MX"}],"info":{"seed":"dc53c8c3ea040cbd","results":1,"page":1,"version":"1.4"}}
+[2022-07-15 00:08:28,265] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20220715T000823, start_date=20220715T000827, end_date=20220715T000828
+[2022-07-15 00:08:28,319] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-15 00:08:28,373] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

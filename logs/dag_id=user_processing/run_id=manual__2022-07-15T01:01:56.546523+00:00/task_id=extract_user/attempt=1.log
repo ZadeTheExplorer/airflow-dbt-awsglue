@@ -1,0 +1,26 @@
+[2022-07-15 01:01:59,336] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-15T01:01:56.546523+00:00 [queued]>
+[2022-07-15 01:01:59,343] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-15T01:01:56.546523+00:00 [queued]>
+[2022-07-15 01:01:59,344] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-15 01:01:59,346] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-15 01:01:59,347] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-15 01:01:59,356] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-15 01:01:56.546523+00:00
+[2022-07-15 01:01:59,362] {standard_task_runner.py:52} INFO - Started process 3559 to run task
+[2022-07-15 01:01:59,365] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'manual__2022-07-15T01:01:56.546523+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpjya0o45q', '--error-file', '/tmp/tmp_l4p5ef8']
+[2022-07-15 01:01:59,367] {standard_task_runner.py:80} INFO - Job 49: Subtask extract_user
+[2022-07-15 01:01:59,415] {task_command.py:369} INFO - Running <TaskInstance: user_processing.extract_user manual__2022-07-15T01:01:56.546523+00:00 [running]> on host 042af4b110d2
+[2022-07-15 01:01:59,463] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-15T01:01:56.546523+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-15T01:01:56.546523+00:00
+[2022-07-15 01:01:59,465] {http.py:102} INFO - Calling HTTP method
+[2022-07-15 01:01:59,474] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-15 01:01:59,477] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-15 01:02:00,415] {http.py:106} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Antoine","last":"Jones"},"location":{"street":{"number":4947,"name":"Elgin St"},"city":"Havelock","state":"Prince Edward Island","country":"Canada","postcode":"J5B 2N9","coordinates":{"latitude":"-71.3243","longitude":"-114.0135"},"timezone":{"offset":"+4:30","description":"Kabul"}},"email":"antoine.jones@example.com","login":{"uuid":"17a776bb-3a18-45a6-ae7c-dd1059014ffa","username":"lazyrabbit876","password":"touching","salt":"mOhFwOzj","md5":"902a2a6b92aa922869e56fad587d5df8","sha1":"ba8b2eb70986e5083a14e9f7bd14d535b54441da","sha256":"f8a090ebd831555f232f2265cacbcd3b0246a2034b51f5bda8bdaed4a4686c09"},"dob":{"date":"1992-02-13T17:22:16.922Z","age":30},"registered":{"date":"2004-07-05T10:16:33.620Z","age":18},"phone":"I50 C29-9610","cell":"I00 L72-7284","id":{"name":"SIN","value":"972957211"},"picture":{"large":"https://randomuser.me/api/portraits/men/0.jpg","medium":"https://randomuser.me/api/portraits/med/men/0.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/0.jpg"},"nat":"CA"}],"info":{"seed":"1a12599068e63fb9","results":1,"page":1,"version":"1.4"}}
+[2022-07-15 01:02:00,441] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20220715T010156, start_date=20220715T010159, end_date=20220715T010200
+[2022-07-15 01:02:00,476] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-15 01:02:00,514] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

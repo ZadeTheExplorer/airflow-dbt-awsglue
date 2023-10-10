@@ -1,0 +1,26 @@
+[2022-07-20 04:52:14,991] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2022-07-15T00:00:00+00:00 [queued]>
+[2022-07-20 04:52:14,999] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2022-07-15T00:00:00+00:00 [queued]>
+[2022-07-20 04:52:15,000] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 04:52:15,002] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-20 04:52:15,002] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-20 04:52:15,014] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-15 00:00:00+00:00
+[2022-07-20 04:52:15,019] {standard_task_runner.py:52} INFO - Started process 79 to run task
+[2022-07-20 04:52:15,022] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2022-07-15T00:00:00+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmptr1lgukv', '--error-file', '/tmp/tmpw28tgttr']
+[2022-07-20 04:52:15,024] {standard_task_runner.py:80} INFO - Job 59: Subtask extract_user
+[2022-07-20 04:52:15,072] {task_command.py:369} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2022-07-15T00:00:00+00:00 [running]> on host 4800f8aada3e
+[2022-07-20 04:52:15,121] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-15T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-15T00:00:00+00:00
+[2022-07-20 04:52:15,124] {http.py:102} INFO - Calling HTTP method
+[2022-07-20 04:52:15,132] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-20 04:52:15,134] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-20 04:52:15,527] {http.py:106} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Reginaldo","last":"Vieira"},"location":{"street":{"number":6403,"name":"Rua Santos Dumont "},"city":"Viamão","state":"Ceará","country":"Brazil","postcode":68062,"coordinates":{"latitude":"-78.0512","longitude":"-81.6680"},"timezone":{"offset":"+2:00","description":"Kaliningrad, South Africa"}},"email":"reginaldo.vieira@example.com","login":{"uuid":"cf8abf3a-802b-4729-995e-7262cc4928ea","username":"goldentiger546","password":"marvel","salt":"GckUCjKw","md5":"c4e8d500761fb431b9d27e4ba8615363","sha1":"cc59e2600b2ce451ea725d3418987ea8fc804202","sha256":"93ec12b05febf364370e949c77dceffdf23d0f4e806709ef6dd7670214477764"},"dob":{"date":"1953-01-29T09:33:29.418Z","age":69},"registered":{"date":"2011-01-05T23:52:17.000Z","age":11},"phone":"(77) 3615-9665","cell":"(23) 4694-5948","id":{"name":"CPF","value":"339.442.782-79"},"picture":{"large":"https://randomuser.me/api/portraits/men/14.jpg","medium":"https://randomuser.me/api/portraits/med/men/14.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/14.jpg"},"nat":"BR"}],"info":{"seed":"c78c19b4f7edf4ea","results":1,"page":1,"version":"1.4"}}
+[2022-07-20 04:52:15,559] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20220715T000000, start_date=20220720T045214, end_date=20220720T045215
+[2022-07-20 04:52:15,578] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-20 04:52:15,616] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

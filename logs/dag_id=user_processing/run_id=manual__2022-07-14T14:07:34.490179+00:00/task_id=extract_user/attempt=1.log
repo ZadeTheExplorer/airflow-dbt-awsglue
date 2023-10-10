@@ -1,0 +1,26 @@
+[2022-07-14 14:07:39,298] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-14T14:07:34.490179+00:00 [queued]>
+[2022-07-14 14:07:39,306] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-14T14:07:34.490179+00:00 [queued]>
+[2022-07-14 14:07:39,308] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-14 14:07:39,309] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-14 14:07:39,310] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-14 14:07:39,321] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-14 14:07:34.490179+00:00
+[2022-07-14 14:07:39,326] {standard_task_runner.py:52} INFO - Started process 8182 to run task
+[2022-07-14 14:07:39,330] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'manual__2022-07-14T14:07:34.490179+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmph76ui2bx', '--error-file', '/tmp/tmptefx8o4d']
+[2022-07-14 14:07:39,333] {standard_task_runner.py:80} INFO - Job 27: Subtask extract_user
+[2022-07-14 14:07:39,381] {task_command.py:369} INFO - Running <TaskInstance: user_processing.extract_user manual__2022-07-14T14:07:34.490179+00:00 [running]> on host 9d087153d2d5
+[2022-07-14 14:07:39,428] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-14T14:07:34.490179+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-14T14:07:34.490179+00:00
+[2022-07-14 14:07:39,429] {http.py:102} INFO - Calling HTTP method
+[2022-07-14 14:07:39,437] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-14 14:07:39,441] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-14 14:07:40,547] {http.py:106} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Olivia","last":"Olsen"},"location":{"street":{"number":7497,"name":"Park Alle"},"city":"Gl. Rye","state":"Midtjylland","country":"Denmark","postcode":30168,"coordinates":{"latitude":"-42.3907","longitude":"169.0381"},"timezone":{"offset":"+9:30","description":"Adelaide, Darwin"}},"email":"olivia.olsen@example.com","login":{"uuid":"cbdeb937-35ae-4689-b8b4-8505151191b0","username":"crazylion400","password":"ramrod","salt":"vQ3xHLnF","md5":"9f02519f9817d715838006073b041b6b","sha1":"8d9d7a859738f9a2bc821402526559cd73bdb189","sha256":"4c1b717ff7301751c99b72b5cfc700ee9c1fa9e76e5e6f09ae1d9db3d9d1e82a"},"dob":{"date":"1945-08-21T18:58:43.931Z","age":76},"registered":{"date":"2009-08-23T00:55:43.012Z","age":12},"phone":"30050700","cell":"28023048","id":{"name":"CPR","value":"210845-2394"},"picture":{"large":"https://randomuser.me/api/portraits/women/7.jpg","medium":"https://randomuser.me/api/portraits/med/women/7.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/7.jpg"},"nat":"DK"}],"info":{"seed":"b4683bb767c7c583","results":1,"page":1,"version":"1.4"}}
+[2022-07-14 14:07:40,572] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20220714T140734, start_date=20220714T140739, end_date=20220714T140740
+[2022-07-14 14:07:40,628] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-14 14:07:40,675] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

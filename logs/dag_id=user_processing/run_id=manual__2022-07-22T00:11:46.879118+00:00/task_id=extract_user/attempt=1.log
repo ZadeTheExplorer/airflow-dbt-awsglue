@@ -1,0 +1,26 @@
+[2022-07-22 00:11:51,435] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-22T00:11:46.879118+00:00 [queued]>
+[2022-07-22 00:11:51,444] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-22T00:11:46.879118+00:00 [queued]>
+[2022-07-22 00:11:51,445] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 00:11:51,447] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-22 00:11:51,448] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 00:11:51,459] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-22 00:11:46.879118+00:00
+[2022-07-22 00:11:51,464] {standard_task_runner.py:52} INFO - Started process 9572 to run task
+[2022-07-22 00:11:51,467] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'manual__2022-07-22T00:11:46.879118+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpdv_u5f66', '--error-file', '/tmp/tmpojaae55l']
+[2022-07-22 00:11:51,470] {standard_task_runner.py:80} INFO - Job 125: Subtask extract_user
+[2022-07-22 00:11:51,521] {task_command.py:369} INFO - Running <TaskInstance: user_processing.extract_user manual__2022-07-22T00:11:46.879118+00:00 [running]> on host e755cbaa46dc
+[2022-07-22 00:11:51,574] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T00:11:46.879118+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-22T00:11:46.879118+00:00
+[2022-07-22 00:11:51,577] {http.py:102} INFO - Calling HTTP method
+[2022-07-22 00:11:51,585] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-22 00:11:51,588] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-22 00:11:53,831] {http.py:106} INFO - {"results":[{"gender":"male","name":{"title":"Monsieur","first":"Evan","last":"Rodriguez"},"location":{"street":{"number":2156,"name":"Rue de la Charité"},"city":"Busswil bei Melchnau","state":"St. Gallen","country":"Switzerland","postcode":4506,"coordinates":{"latitude":"-58.4711","longitude":"-66.6886"},"timezone":{"offset":"+11:00","description":"Magadan, Solomon Islands, New Caledonia"}},"email":"evan.rodriguez@example.com","login":{"uuid":"4ef3a2b4-4f7b-48a8-b528-6fca602edb77","username":"blacklion444","password":"ficken","salt":"r8DRGPI8","md5":"23ac167507782b5dca88d95e56af0792","sha1":"cf580b42aa8af4c9f8783368fe4ce8124196c2e2","sha256":"5b9aa9069caafee8e6488f62f856f26a3df5edcee4b04850a12a4d9bae029d10"},"dob":{"date":"1997-11-25T11:33:27.365Z","age":24},"registered":{"date":"2018-01-16T00:27:53.249Z","age":4},"phone":"075 188 64 41","cell":"079 180 94 92","id":{"name":"AVS","value":"756.9377.9420.14"},"picture":{"large":"https://randomuser.me/api/portraits/men/64.jpg","medium":"https://randomuser.me/api/portraits/med/men/64.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/64.jpg"},"nat":"CH"}],"info":{"seed":"cc7e43a59b81ecd4","results":1,"page":1,"version":"1.4"}}
+[2022-07-22 00:11:53,861] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20220722T001146, start_date=20220722T001151, end_date=20220722T001153
+[2022-07-22 00:11:53,893] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-22 00:11:53,944] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

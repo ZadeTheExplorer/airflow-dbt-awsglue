@@ -1,0 +1,23 @@
+[2022-07-28 13:21:50,360] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.process_user scheduled__2022-07-22T00:00:00+00:00 [queued]>
+[2022-07-28 13:21:50,366] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.process_user scheduled__2022-07-22T00:00:00+00:00 [queued]>
+[2022-07-28 13:21:50,367] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 13:21:50,368] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-28 13:21:50,369] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-28 13:21:50,377] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): process_user> on 2022-07-22 00:00:00+00:00
+[2022-07-28 13:21:50,382] {standard_task_runner.py:52} INFO - Started process 91 to run task
+[2022-07-28 13:21:50,385] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'process_user', 'scheduled__2022-07-22T00:00:00+00:00', '--job-id', '150', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpzs8_mp5m', '--error-file', '/tmp/tmpk5ja7daw']
+[2022-07-28 13:21:50,387] {standard_task_runner.py:80} INFO - Job 150: Subtask process_user
+[2022-07-28 13:21:50,429] {task_command.py:369} INFO - Running <TaskInstance: user_processing.process_user scheduled__2022-07-22T00:00:00+00:00 [running]> on host e755cbaa46dc
+[2022-07-28 13:21:50,472] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=process_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-07-22T00:00:00+00:00
+[2022-07-28 13:21:50,488] {python.py:173} INFO - Done. Returned value was: None
+[2022-07-28 13:21:50,497] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=process_user, execution_date=20220722T000000, start_date=20220728T132150, end_date=20220728T132150
+[2022-07-28 13:21:50,518] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-28 13:21:50,546] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

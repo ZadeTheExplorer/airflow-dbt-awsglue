@@ -1,0 +1,26 @@
+[2022-07-21 17:38:21,899] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-21T17:38:19.421407+00:00 [queued]>
+[2022-07-21 17:38:21,921] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user manual__2022-07-21T17:38:19.421407+00:00 [queued]>
+[2022-07-21 17:38:21,923] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-21 17:38:21,924] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-21 17:38:21,928] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-21 17:38:21,947] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-07-21 17:38:19.421407+00:00
+[2022-07-21 17:38:21,955] {standard_task_runner.py:52} INFO - Started process 7994 to run task
+[2022-07-21 17:38:21,961] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'manual__2022-07-21T17:38:19.421407+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpgm5m434o', '--error-file', '/tmp/tmp0k_87382']
+[2022-07-21 17:38:21,965] {standard_task_runner.py:80} INFO - Job 101: Subtask extract_user
+[2022-07-21 17:38:22,087] {task_command.py:369} INFO - Running <TaskInstance: user_processing.extract_user manual__2022-07-21T17:38:19.421407+00:00 [running]> on host e755cbaa46dc
+[2022-07-21 17:38:22,214] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-21T17:38:19.421407+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-21T17:38:19.421407+00:00
+[2022-07-21 17:38:22,216] {http.py:102} INFO - Calling HTTP method
+[2022-07-21 17:38:22,244] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2022-07-21 17:38:22,250] {http.py:129} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2022-07-21 17:38:23,801] {http.py:106} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"آدرین","last":"کریمی"},"location":{"street":{"number":8283,"name":"پاسداران"},"city":"قزوین","state":"گیلان","country":"Iran","postcode":48460,"coordinates":{"latitude":"14.9348","longitude":"-79.5462"},"timezone":{"offset":"-8:00","description":"Pacific Time (US & Canada)"}},"email":"adryn.khrymy@example.com","login":{"uuid":"0d2dfbf6-432e-4b50-bd54-566d6ac78225","username":"greenelephant390","password":"steelers","salt":"smi5Ruc7","md5":"7bd1fab61cd477470a8c4efa6478333c","sha1":"bb6f991300ba72ed3d76ea711c5e94b1a8f924ff","sha256":"eab4a79607a000021f7c17a16adc927a3a57b56b066ea125614617aed38c329f"},"dob":{"date":"1967-04-13T07:21:56.586Z","age":55},"registered":{"date":"2010-08-31T08:57:55.965Z","age":11},"phone":"046-74511378","cell":"0994-107-6447","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/87.jpg","medium":"https://randomuser.me/api/portraits/med/men/87.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/87.jpg"},"nat":"IR"}],"info":{"seed":"e3fd41d66ff58ff3","results":1,"page":1,"version":"1.4"}}
+[2022-07-21 17:38:23,833] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20220721T173819, start_date=20220721T173821, end_date=20220721T173823
+[2022-07-21 17:38:23,866] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-21 17:38:23,890] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

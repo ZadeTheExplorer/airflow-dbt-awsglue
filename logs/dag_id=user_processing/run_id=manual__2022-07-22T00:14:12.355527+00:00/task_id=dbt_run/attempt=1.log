@@ -1,0 +1,57 @@
+[2022-07-22 00:14:22,087] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.dbt_run manual__2022-07-22T00:14:12.355527+00:00 [queued]>
+[2022-07-22 00:14:22,096] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: user_processing.dbt_run manual__2022-07-22T00:14:12.355527+00:00 [queued]>
+[2022-07-22 00:14:22,098] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 00:14:22,099] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-07-22 00:14:22,100] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-22 00:14:22,110] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): dbt_run> on 2022-07-22 00:14:12.355527+00:00
+[2022-07-22 00:14:22,116] {standard_task_runner.py:52} INFO - Started process 9750 to run task
+[2022-07-22 00:14:22,120] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'dbt_run', 'manual__2022-07-22T00:14:12.355527+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpvowyvgc_', '--error-file', '/tmp/tmpoggko59j']
+[2022-07-22 00:14:22,122] {standard_task_runner.py:80} INFO - Job 134: Subtask dbt_run
+[2022-07-22 00:14:22,175] {task_command.py:369} INFO - Running <TaskInstance: user_processing.dbt_run manual__2022-07-22T00:14:12.355527+00:00 [running]> on host e755cbaa46dc
+[2022-07-22 00:14:22,234] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=dbt_run
+AIRFLOW_CTX_EXECUTION_DATE=2022-07-22T00:14:12.355527+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-07-22T00:14:12.355527+00:00
+[2022-07-22 00:14:22,238] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-07-22 00:14:22,240] {subprocess.py:74} INFO - Running command: ['bash', '-c', '\n        cd /opt/***/dbt &&\n        dbt run --profiles-dir .\n        ']
+[2022-07-22 00:14:22,253] {subprocess.py:85} INFO - Output:
+[2022-07-22 00:14:24,167] {subprocess.py:92} INFO - 00:14:24  Running with dbt=1.1.1
+[2022-07-22 00:14:24,309] {subprocess.py:92} INFO - 00:14:24  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2022-07-22 00:14:24,310] {subprocess.py:92} INFO - There are 1 unused configuration paths:
+[2022-07-22 00:14:24,311] {subprocess.py:92} INFO - - models.dbt_***_patrick.example
+[2022-07-22 00:14:24,312] {subprocess.py:92} INFO - 
+[2022-07-22 00:14:24,339] {subprocess.py:92} INFO - 00:14:24  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 167 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[2022-07-22 00:14:24,346] {subprocess.py:92} INFO - 00:14:24
+[2022-07-22 00:14:24,503] {subprocess.py:92} INFO - 00:14:24  Concurrency: 1 threads (target='dev')
+[2022-07-22 00:14:24,509] {subprocess.py:92} INFO - 00:14:24
+[2022-07-22 00:14:24,523] {subprocess.py:92} INFO - 00:14:24  1 of 2 START table model public.d_usersname .................................... [RUN]
+[2022-07-22 00:14:24,614] {subprocess.py:92} INFO - 00:14:24  1 of 2 ERROR creating table model public.d_usersname ........................... [[31mERROR[0m in 0.09s]
+[2022-07-22 00:14:24,623] {subprocess.py:92} INFO - 00:14:24  2 of 2 SKIP relation public.my_second_dbt_model ................................ [[33mSKIP[0m]
+[2022-07-22 00:14:24,756] {subprocess.py:92} INFO - 00:14:24
+[2022-07-22 00:14:24,758] {subprocess.py:92} INFO - 00:14:24  Finished running 1 table model, 1 view model in 0.41s.
+[2022-07-22 00:14:24,786] {subprocess.py:92} INFO - 00:14:24
+[2022-07-22 00:14:24,788] {subprocess.py:92} INFO - 00:14:24  [31mCompleted with 1 error and 0 warnings:[0m
+[2022-07-22 00:14:24,791] {subprocess.py:92} INFO - 00:14:24
+[2022-07-22 00:14:24,793] {subprocess.py:92} INFO - 00:14:24  [33mDatabase Error in model d_usersname (models/example/d_usersname.sql)[0m
+[2022-07-22 00:14:24,796] {subprocess.py:92} INFO - 00:14:24    column " " does not exist
+[2022-07-22 00:14:24,799] {subprocess.py:92} INFO - 00:14:24    LINE 25:     firstname || " " || lastname as fullname
+[2022-07-22 00:14:24,800] {subprocess.py:92} INFO - 00:14:24                              ^
+[2022-07-22 00:14:24,804] {subprocess.py:92} INFO - 00:14:24    compiled SQL at target/run/patrick/models/example/d_usersname.sql
+[2022-07-22 00:14:24,807] {subprocess.py:92} INFO - 00:14:24
+[2022-07-22 00:14:24,810] {subprocess.py:92} INFO - 00:14:24  Done. PASS=0 WARN=0 ERROR=1 SKIP=1 TOTAL=2
+[2022-07-22 00:14:25,990] {subprocess.py:96} INFO - Command exited with return code 1
+[2022-07-22 00:14:26,005] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 195, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-07-22 00:14:26,010] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=user_processing, task_id=dbt_run, execution_date=20220722T001412, start_date=20220722T001422, end_date=20220722T001426
+[2022-07-22 00:14:26,022] {standard_task_runner.py:97} ERROR - Failed to execute job 134 for task dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 9750)
+[2022-07-22 00:14:26,036] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-22 00:14:26,065] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
