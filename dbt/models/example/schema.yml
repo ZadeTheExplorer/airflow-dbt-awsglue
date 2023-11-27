@@ -2,20 +2,10 @@
 version: 2
 
 models:
-  - name: d_usersname
+  - name: d_gender_count
     description: "A starter dbt model"
     columns:
-      - name: id
+      - name: Gender_Type
         description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
-    columns:
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
+      - name: Gender_Count
+        description: "Count of gender"
