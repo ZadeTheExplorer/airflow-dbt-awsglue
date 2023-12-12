@@ -1,5 +1,5 @@
 import pandas as pd
-
+import duckdb
 from airflow import DAG
 from airflow.operators.dummy import DummyOperator
 from airflow.operators.bash import BashOperator
@@ -20,21 +20,32 @@ default_args = {
 
 dag = DAG('duckdb_query', default_args=default_args, schedule_interval=None)
 
-def _process_user(ti):
+def _exec_query(ti):
     """
     Use DuckDB to aggregate the data
     """
-    hook = DuckDBHook.get_hook('ducktest1')
-    conn = hook.get_conn()
+    # hook = DuckDBHook.get_hook('motherducktest')
+    # conn = hook.get_conn()
 
-    x = conn.execute('SELECT * FROM dbt.main."Telco-Customer-Churn"').df()
-    print(x)
-    print("DONE")
+    # # x = conn.execute('select * from my_db.main.hacker_news limit 100').df()
+    # x = conn.execute('select 1').df()
+    # print(x)
+    # print("DONE")
+
+    # initiate the MotherDuck connection through a service token through
+    con = duckdb.connect('md:my_db?motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiaGF0cmlzeS5nbWFpbC5jb20iLCJlbWFpbCI6ImhhdHJpc3lAZ21haWwuY29tIiwidXNlcklkIjoiZDZhNWIzODYtOWRlZC00OWMxLTg1MzctMjBiMjUxMTc2MTgyIiwiaWF0IjoxNzAxMjE2MDg3LCJleHAiOjE3MzI3NzM2ODd9.CLcOUKJ5FA3ZjSP_6euRTv5lmVfHEyyL2Xs5a--jzq8') 
+
+    # connect to your MotherDuck database through 'md:mydatabase' or 'motherduck:mydatabase'
+    # if the database doesn't exist, MotherDuck creates it when you connect
+    # con = duckdb.connect('md:mydatabase')
+
+    # run a query to check verify that you are connected
+    con.sql("Select * from main.hacker_news limit 10;").show()
 
 
 
 process_user = PythonOperator(
     dag=dag,
-    task_id='process_user',
-    python_callable=_process_user
+    task_id='exec_query',
+    python_callable=_exec_query
 )

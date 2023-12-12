@@ -3,4 +3,13 @@ dbt_airflow_patrick:
   outputs:
     dev:
       type: duckdb
+      schema: my_db
+      path: 'md:my_db?motherduck_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uIjoiaGF0cmlzeS5nbWFpbC5jb20iLCJlbWFpbCI6ImhhdHJpc3lAZ21haWwuY29tIiwidXNlcklkIjoiZDZhNWIzODYtOWRlZC00OWMxLTg1MzctMjBiMjUxMTc2MTgyIiwiaWF0IjoxNzAxMjE2MDg3LCJleHAiOjE3MzI3NzM2ODd9.CLcOUKJ5FA3ZjSP_6euRTv5lmVfHEyyL2Xs5a--jzq8'
+      # threads: 16
+      # extensions: 
+      #   - httpfs
+      config_options:
+        autoload_known_extensions: false
+    local:
+      type: duckdb
       path: /tmp/dbt.duckdb
